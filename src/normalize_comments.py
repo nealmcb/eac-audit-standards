@@ -10,6 +10,8 @@ import sys
 
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 
+import html
+
 import pandas as pd
 
 from utils import DATA_PROCESSED, DATA_RAW, ensure_dirs
@@ -21,6 +23,9 @@ log = logging.getLogger(__name__)
 def clean_text(text: str | None) -> str:
     if not text:
         return ""
+    # strip HTML tags, decode entities, collapse whitespace
+    text = re.sub(r"<[^>]+>", " ", text)
+    text = html.unescape(text)
     return re.sub(r"\s+", " ", text).strip()
 
 

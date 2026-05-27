@@ -109,10 +109,11 @@ def build_summary(df: pd.DataFrame) -> str:
             .nlargest(3, "text_len")
         )
         for _, row in detailed.iterrows():
-            first = str(row.get("first_name") or "").strip()
-            last = str(row.get("last_name") or "").strip()
+            first = "" if str(row.get("first_name") or "") in ("", "nan") else str(row["first_name"]).strip()
+            last = "" if str(row.get("last_name") or "") in ("", "nan") else str(row["last_name"]).strip()
             name = f"{first} {last}".strip() or "Anonymous"
-            org = f" ({row['organization']})" if str(row.get("organization") or "").strip() else ""
+            org_val = "" if str(row.get("organization") or "") in ("", "nan") else str(row["organization"]).strip()
+            org = f" ({org_val})" if org_val else ""
             date = str(row.get("submitted_date", "n/a"))
             lines.append(f"\n**{name}{org}** — {date}")
             body = str(row.get("comment_text") or "")
