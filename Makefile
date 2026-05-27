@@ -1,5 +1,5 @@
 .PHONY: all fetch fetch-document fetch-comments normalize summarize \
-        summarize-document summarize-comments test clean setup
+        summarize-document summarize-comments test clean clean-comments setup
 
 ## Run the full pipeline: fetch → normalize → summarize
 all: fetch normalize summarize
@@ -55,6 +55,12 @@ demo:
 ## Remove all generated data files (keeps directory structure)
 clean:
 	rm -f data/raw/*.json data/raw/*.jsonl data/raw/*.docx data/raw/*.pdf data/raw/*.doc
+	rm -rf data/raw/attachments
 	rm -f data/processed/*.csv data/processed/*.jsonl data/processed/*.txt
 	rm -f data/summaries/*.md
 	find . -type d -name __pycache__ -exec rm -rf {} + 2>/dev/null || true
+
+## Re-fetch comments and attachments only (keep document)
+clean-comments:
+	rm -f data/raw/comments*.json data/raw/comments*.jsonl
+	rm -rf data/raw/attachments

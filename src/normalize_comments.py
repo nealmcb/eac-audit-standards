@@ -26,6 +26,8 @@ def clean_text(text: str | None) -> str:
 
 def normalize_comment(item: dict) -> dict:
     attrs = item.get("attributes", {})
+    attachment_count = attrs.get("_attachment_count") or attrs.get("attachmentCount", 0)
+    attachment_paths = attrs.get("_attachment_paths") or []
     return {
         "id": item.get("id", ""),
         "title": clean_text(attrs.get("title")),
@@ -37,7 +39,9 @@ def normalize_comment(item: dict) -> dict:
         "docket_id": attrs.get("docketId", ""),
         "comment_text": clean_text(attrs.get("comment")),
         "withdrawn": attrs.get("withdrawn", False),
-        "has_attachments": bool(attrs.get("attachmentCount", 0)),
+        "has_attachments": bool(attachment_count),
+        "attachment_count": attachment_count,
+        "attachment_paths": "|".join(attachment_paths),
     }
 
 

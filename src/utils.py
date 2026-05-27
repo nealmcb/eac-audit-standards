@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import os
 import pathlib
+import time
 
 import requests
 import yaml
@@ -17,14 +18,28 @@ CONFIG_PATH = ROOT / "config" / "docket.yaml"
 ENV_PATH = ROOT / ".env"
 
 
-def load_dotenv_if_present() -> None:
-    if not ENV_PATH.exists():
+def _parse_env_file(path: pathlib.Path) -> None:
+    """Parse a shell-style env file, handling `export KEY=VALUE` and `. /other/file`."""
+    if not path.exists():
         return
 
-    for raw_line in ENV_PATH.read_text().splitlines():
+    for raw_line in path.read_text().splitlines():
         line = raw_line.strip()
-        if not line or line.startswith("#") or "=" not in line:
+        if not line or line.startswith("#"):
             continue
+
+        # Shell source directive: `. /path/to/file` or `source /path/to/file`
+        if line.startswith(". ") or line.startswith("source "):
+            sourced = line.split(None, 1)[1].strip()
+            _parse_env_file(pathlib.Path(os.path.expanduser(sourced)))
+            continue
+
+        if "=" not in line:
+            continue
+
+        # Strip optional leading `export `
+        if line.startswith("export "):
+            line = line[len("export "):]
 
         key, value = line.split("=", 1)
         key = key.strip()
@@ -37,6 +52,10 @@ def load_dotenv_if_present() -> None:
             value = value[1:-1]
 
         os.environ[key] = value
+
+
+def load_dotenv_if_present() -> None:
+    _parse_env_file(ENV_PATH)
 
 
 load_dotenv_if_present()
@@ -62,7 +81,7 @@ def make_session() -> requests.Session:
     return session
 
 
-@retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=2, max=10))
+@retry(stop=stop_after_attempt(5), wait=wait_exponential(multiplier=2, min=4, max=60))
 def get_json(
     url: str,
     params: dict | None = None,
@@ -70,5 +89,11 @@ def get_json(
 ) -> dict:
     sess = session or make_session()
     resp = sess.get(url, params=params, timeout=30)
+    if resp.status_code == 429:
+        retry_after = int(resp.headers.get("Retry-After", 30))
+        import logging
+        logging.getLogger(__name__).warning("Rate limited; sleeping %ds", retry_after)
+        time.sleep(retry_after)
+        resp.raise_for_status()  # trigger retry
     resp.raise_for_status()
     return resp.json()

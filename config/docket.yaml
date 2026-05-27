@@ -3,7 +3,7 @@ docket_id: EAC-2026-0067
 document:
   # Leave url blank to discover automatically via the Regulations.gov API.
   # Override here if auto-discovery fails or the document is hosted externally.
-  url: ""
+  url: "https://www.eac.gov/sites/default/files/2026-02/Draft_Audit_Standards_021826_Clean.docx"
   filename: "eac_draft_audit_standards.docx"
 
 regulations_gov:
