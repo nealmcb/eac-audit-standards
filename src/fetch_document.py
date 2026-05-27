@@ -57,10 +57,8 @@ def find_document_url(docket_id: str, api_key: str) -> tuple[str, str] | None:
 
 def download_file(url: str, dest: pathlib.Path, api_key: str) -> None:
     session = make_session()
-    sep = "&" if "?" in url else "?"
-    full_url = f"{url}{sep}api_key={api_key}"
     log.info("Downloading %s -> %s", url, dest)
-    resp = session.get(full_url, timeout=120, stream=True)
+    resp = session.get(url, params={"api_key": api_key}, timeout=120, stream=True)
     resp.raise_for_status()
     dest.write_bytes(resp.content)
     log.info("Saved %d bytes to %s", len(resp.content), dest)
