@@ -9,6 +9,7 @@ This repository is designed to:
 - download the draft audit standards document
 - download all public comments for the target Regulations.gov docket
 - preserve raw responses and source artifacts
+- extract text from PDF and DOCX attachments into Markdown
 - normalize comments into structured datasets
 - summarize the draft standards themselves
 - summarize public comments in the context of the draft standards
@@ -33,8 +34,16 @@ This repository is designed to:
 │   └── docket.yaml
 ├── data/
 │   ├── raw/
+│   │   ├── eac_draft_audit_standards.docx
+│   │   └── attachments/{comment-id}/attachment_N.{pdf,docx}
 │   ├── processed/
+│   │   ├── eac_draft_audit_standards.md   ← extracted Markdown
+│   │   ├── attachments/{comment-id}/attachment_N.md
+│   │   ├── comments.csv
+│   │   └── comments.jsonl
 │   └── summaries/
+├── scripts/
+│   └── extract_documents.py
 ├── src/
 │   ├── fetch_document.py
 │   ├── fetch_comments.py
@@ -74,6 +83,7 @@ Or run steps individually:
 ```bash
 make fetch-document     # download the EAC draft standards document
 make fetch-comments     # download all public comments from Regulations.gov
+make extract            # extract text from PDF/DOCX attachments → Markdown
 make normalize          # normalize comments → CSV + JSONL
 make summarize          # generate Markdown summaries
 ```
@@ -112,7 +122,15 @@ uv run python src/fetch_comments.py
 
 Pages through all public comments on Regulations.gov for the docket, saving each raw API page to `data/raw/comments_page_NNNN.json` and a consolidated `data/raw/comments.jsonl`.
 
-### 3. Normalize comments
+### 3. Extract attachment text
+
+```bash
+uv run python scripts/extract_documents.py
+```
+
+Converts all PDF and DOCX files under `data/raw/attachments/` and `data/raw/eac_draft_audit_standards.docx` into Markdown under `data/processed/`, mirroring the raw directory structure. Uses PyMuPDF4LLM for PDFs and MarkItDown for DOCX files. When both formats exist for the same attachment, DOCX is preferred. Pass `--force` to re-extract files that already have output.
+
+### 4. Normalize comments
 
 ```bash
 uv run python src/normalize_comments.py
@@ -120,7 +138,7 @@ uv run python src/normalize_comments.py
 
 Reads `data/raw/comments.jsonl`, cleans text, and writes `data/processed/comments.csv` and `data/processed/comments.jsonl` with a consistent schema.
 
-### 4. Summarize the standards document
+### 5. Summarize the standards document
 
 ```bash
 uv run python src/summarize_document.py
@@ -128,7 +146,7 @@ uv run python src/summarize_document.py
 
 Extracts paragraphs from the downloaded `.docx`, preserves heading structure, and writes `data/summaries/document_summary.md`. Also saves full plain text to `data/processed/document_text.txt`.
 
-### 5. Summarize comments
+### 6. Summarize comments
 
 ```bash
 uv run python src/summarize_comments.py
@@ -139,6 +157,6 @@ Loads normalized comments, computes word-frequency theme analysis (stop words re
 ## Notes
 
 - This MVP does not depend on proprietary APIs.
-- If the draft document remains `.docx`, the first version stores it and extracts basic readable text where possible.
-- Attachment text extraction for submitted PDFs can be added later.
+- Attachment text extraction uses PyMuPDF4LLM (PDF) and MarkItDown (DOCX). Tesseract OCR is used automatically for scanned PDFs.
+- Claude Projects cannot parse binary files from GitHub; the extracted `.md` files under `data/processed/` are the Claude-readable versions.
 - Optional LLM-based summarization can be layered in later behind environment variables.

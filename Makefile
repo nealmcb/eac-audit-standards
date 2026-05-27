@@ -1,4 +1,4 @@
-.PHONY: all fetch fetch-document fetch-comments normalize summarize \
+.PHONY: all fetch fetch-document fetch-comments extract normalize summarize \
         summarize-document summarize-comments test clean clean-comments setup
 
 ## Run the full pipeline: fetch → normalize → summarize
@@ -18,6 +18,10 @@ fetch-document:
 ## Download all public comments from Regulations.gov
 fetch-comments:
 	uv run python src/fetch_comments.py
+
+## Extract text from PDF and DOCX attachments into Markdown under data/processed/
+extract:
+	uv run python scripts/extract_documents.py
 
 ## Normalize raw comments into structured CSV / JSONL
 normalize:

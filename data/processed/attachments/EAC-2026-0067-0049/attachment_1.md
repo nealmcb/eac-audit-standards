@@ -1,0 +1,33 @@
+Subject: Public Comment on Voluntary National Standards for Election Audits – Docket EAC-2026-0034
+Submitted by: Victoria E. Cruz
+Date: April 27, 2026
+
+Dear EAC Commissioners and Staff:
+
+Thank you for developing the Voluntary National Standards for Election Audits – A Practical Guide and for opening it to public comment. The document provides a clear, principle-based framework that will help jurisdictions strengthen audit practices nationwide.
+
+I particularly appreciate the **Independence** standard under the Objective category, which states that “Auditors should maintain a degree of independence from the work being audited, and neither the audit process nor results should depend solely on the chief election official.” This is essential. Election audits must be demonstrably independent from the administrators conducting the election—not just for tabulation audits, but across all areas (planning, execution, security, chain-of-custody, and reporting). Visible independence is critical to building and maintaining public trust.
+
+However, the draft correctly notes (and my own review confirms) that most local election offices are not staffed with full-time audit experts, statisticians, or credentialed professionals. The principle of independence is excellent, but officials need more practical guidance on how to achieve it. Independent professional election auditors do exist, and the standards would be significantly stronger if they explicitly pointed jurisdictions toward these established resources.
+
+Competent, nonpartisan experts are available through:
+
+* The Institute of Election Auditors (IEA), which trains and credentials Certified Election Auditors® (CEAs)—primarily CPAs and accountants—who are specifically prepared to conduct independent, nonpartisan election audits.
+* Verified Voting’s audit team (audits@verifiedvoting.org), which assists jurisdictions with audit design, methodology, and implementation.
+* State-level independent auditors or oversight bodies (e.g., New Mexico’s independent auditor hired by the Secretary of State, or New Jersey’s professional audit team appointed by the Attorney General).
+
+Recommendation: In the “Independence” standard (and/or a new “Resources for Implementation” section or appendix), please consider adding:
+
+1. Explicit encouragement to engage external, credentialed independent auditors (such as IEA CEAs or equivalent professionals) when in-house expertise is limited.
+2. Sample language for RFPs or contracts that officials can adapt to hire these experts.
+3. References to the organizations listed above so that smaller jurisdictions do not have to start from scratch.
+
+These modest additions would directly address the real-world gap between the high-level principle and reliable practice, making the standards far more actionable for the thousands of election officials who lack dedicated audit staff, and restoring public trust in elections.
+
+Thank you again for this important work and for considering this feedback.
+
+Respectfully submitted,
+
+Victoria E. Cruz
+Athens, Georgia
+vecruz2018@outlook.com
