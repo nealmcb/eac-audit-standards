@@ -7,6 +7,7 @@ import pathlib
 
 import requests
 import yaml
+from dotenv import load_dotenv
 from tenacity import retry, stop_after_attempt, wait_exponential
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -14,6 +15,8 @@ DATA_RAW = ROOT / "data" / "raw"
 DATA_PROCESSED = ROOT / "data" / "processed"
 DATA_SUMMARIES = ROOT / "data" / "summaries"
 CONFIG_PATH = ROOT / "config" / "docket.yaml"
+
+load_dotenv(ROOT / ".env")
 
 
 def load_config() -> dict:
