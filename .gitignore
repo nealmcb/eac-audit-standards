@@ -1,0 +1,20 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+.python-version
+
+# Environment
+.env
+
+# Data files — keep directory structure, ignore contents
+data/raw/*
+data/processed/*
+data/summaries/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/summaries/.gitkeep

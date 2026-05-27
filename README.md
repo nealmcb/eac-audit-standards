@@ -46,13 +46,52 @@ This repository is designed to:
     └── test_normalize.py
 ```
 
-## Quick start
+## Setup
+
+Install [uv](https://docs.astral.sh/uv/getting-started/installation/) if you don't have it, then install dependencies:
 
 ```bash
-python3 -m venv .venv
-. .venv/bin/activate
-pip install -r requirements.txt
+uv sync
+```
+
+Copy the example environment file. Optionally add a [Regulations.gov API key](https://open.gsa.gov/api/regulationsgov/) to get higher rate limits:
+
+```bash
+cp .env.example .env
+# edit .env and set REGULATIONS_GOV_API_KEY (optional)
+```
+
+## Running the pipeline
+
+Run every step in sequence:
+
+```bash
 make all
+```
+
+Or run steps individually:
+
+```bash
+make fetch-document     # download the EAC draft standards document
+make fetch-comments     # download all public comments from Regulations.gov
+make normalize          # normalize comments → CSV + JSONL
+make summarize          # generate Markdown summaries
+```
+
+### Offline / demo mode
+
+If you don't have a network connection or an API key yet, you can try the pipeline with synthetic fixture data:
+
+```bash
+make demo
+```
+
+This generates a realistic mock `.docx` and comment set, then runs the full normalize → summarize pipeline.
+
+## Running tests
+
+```bash
+make test
 ```
 
 ## Pipeline steps
@@ -60,42 +99,42 @@ make all
 ### 1. Download the draft standards
 
 ```bash
-python src/fetch_document.py
+uv run python src/fetch_document.py
 ```
 
-This downloads the draft standards document configured in `config/docket.yaml` into `data/raw/`.
+Queries Regulations.gov for supporting documents in the docket and downloads the first `.docx`/`.pdf` found into `data/raw/`. Override with a direct URL via `document.url` in `config/docket.yaml`.
 
 ### 2. Download public comments
 
 ```bash
-python src/fetch_comments.py
+uv run python src/fetch_comments.py
 ```
 
-This fetches all public comments visible for the target docket and stores raw JSON pages and a combined JSONL dataset.
+Pages through all public comments on Regulations.gov for the docket, saving each raw API page to `data/raw/comments_page_NNNN.json` and a consolidated `data/raw/comments.jsonl`.
 
 ### 3. Normalize comments
 
 ```bash
-python src/normalize_comments.py
+uv run python src/normalize_comments.py
 ```
 
-This creates a structured CSV/JSONL export with core comment metadata and cleaned text fields.
+Reads `data/raw/comments.jsonl`, cleans text, and writes `data/processed/comments.csv` and `data/processed/comments.jsonl` with a consistent schema.
 
 ### 4. Summarize the standards document
 
 ```bash
-python src/summarize_document.py
+uv run python src/summarize_document.py
 ```
 
-This produces a plain-language summary of the draft audit standards for use as context.
+Extracts paragraphs from the downloaded `.docx`, preserves heading structure, and writes `data/summaries/document_summary.md`. Also saves full plain text to `data/processed/document_text.txt`.
 
 ### 5. Summarize comments
 
 ```bash
-python src/summarize_comments.py
+uv run python src/summarize_comments.py
 ```
 
-This generates an overall comment summary and organizes feedback by major topic areas.
+Loads normalized comments, computes word-frequency theme analysis (stop words removed), and writes `data/summaries/comments_summary.md` with top themes and representative excerpts.
 
 ## Notes
 
