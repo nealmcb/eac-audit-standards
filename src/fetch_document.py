@@ -23,6 +23,14 @@ log = logging.getLogger(__name__)
 REGS_BASE = "https://api.regulations.gov/v4"
 
 
+def describe_api_key(api_key: str) -> str:
+    if api_key == "DEMO_KEY":
+        return "DEMO_KEY"
+    if len(api_key) <= 8:
+        return f"custom key ({len(api_key)} chars)"
+    return f"custom key {api_key[:4]}...{api_key[-4:]} ({len(api_key)} chars)"
+
+
 def find_document_url(docket_id: str, api_key: str) -> tuple[str, str] | None:
     """Query Regulations.gov for a downloadable document in the docket.
 
@@ -69,6 +77,7 @@ def main() -> None:
     config = load_config()
     docket_id = config["docket_id"]
     api_key = get_api_key()
+    log.info("Using Regulations.gov API key: %s", describe_api_key(api_key))
 
     doc_config = config.get("document", {})
     doc_url = (doc_config.get("url") or "").strip()
