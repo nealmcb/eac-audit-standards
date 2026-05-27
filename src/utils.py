@@ -7,7 +7,6 @@ import pathlib
 
 import requests
 import yaml
-from dotenv import load_dotenv
 from tenacity import retry, stop_after_attempt, wait_exponential
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -15,8 +14,32 @@ DATA_RAW = ROOT / "data" / "raw"
 DATA_PROCESSED = ROOT / "data" / "processed"
 DATA_SUMMARIES = ROOT / "data" / "summaries"
 CONFIG_PATH = ROOT / "config" / "docket.yaml"
+ENV_PATH = ROOT / ".env"
 
-load_dotenv(ROOT / ".env")
+
+def load_dotenv_if_present() -> None:
+    if not ENV_PATH.exists():
+        return
+
+    for raw_line in ENV_PATH.read_text().splitlines():
+        line = raw_line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+
+        key, value = line.split("=", 1)
+        key = key.strip()
+        value = value.strip()
+
+        if not key or key in os.environ:
+            continue
+
+        if len(value) >= 2 and value[0] == value[-1] and value[0] in ('"', "'"):
+            value = value[1:-1]
+
+        os.environ[key] = value
+
+
+load_dotenv_if_present()
 
 
 def load_config() -> dict:
