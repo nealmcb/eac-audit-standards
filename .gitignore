@@ -11,10 +11,7 @@ dist/
 # Environment
 .env
 
-# Data files — keep directory structure, ignore contents
-data/raw/*
-data/processed/*
-data/summaries/*
-!data/raw/.gitkeep
-!data/processed/.gitkeep
-!data/summaries/.gitkeep
+# Data files — ignore intermediate pipeline artifacts, track final products
+data/raw/comments_page_*.json
+
+# Track everything else in data/ (processed outputs, attachments, summaries, source doc)
