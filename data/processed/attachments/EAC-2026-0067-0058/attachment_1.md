@@ -1,10 +1,134 @@
-## Verified Votin 
+U.S. Election Assistance Commission
+| 633 3rd Street NW, Suite 200 |     |     |
+| ---------------------------- | --- | --- |
+| Washington, DC 20001         |     |     |
+| Attn: Clearinghouse Division |     |     |
+| Submitted electronically     |     |     |
+| April 27, 2026               |     |     |
 
-L_] verifiedvoting.org 
+Re: Voluntary National Election Audit Standards
+| Docket ID: EAC | -2026-0067 |     |
+| -------------- | ---------- | --- |
 
-L_] verifiedvoting.org 
+Dear U.S. Election Assistance Commissioners,
+On behalf of Verified Voting, I welcome this opportunity for public comment on the
+U.S. Election Assistance Commission’s draft of  Voluntary National Standards for
+Election Audits  – A Practical Guide . Verified Voting is a national nonpartisan nonprofit
+organization working to strengthen democracy for all voters by promoting the
+responsible use of technology in elections. As such, election audits figure prominently
+in our work. I have an unusual vantag e on this draft guide as a two -time (2008 and
+2018) execut ive editor of the  Principles and Best Practices for Post -Election Tabulation
+Audits , endorsed by various nonprofit organizations. I can attest that drafting even
+voluntary standards is not for the faint of heart. We congratulate EAC on presenting an
+audit standards framework that is cogent, adaptable, and constructive. We believe
+that this work can materially advance election audit policy discussions throughout the
+| country.         |     |     |
+| ---------------- | --- | --- |
+| General comments |     |     |
+We find the succinctness and generalizability of the core framework especially helpful.
+The key values or “topics” of the framework —that election audits ought to be
+objective, professional, effective, secure , and  accountable —are thoughtfully chosen.
+The fourteen standards fall sensibly within those broader values. In under 2½ pages,
+the presentation of this framework enunciates challenging yet attainable criteria for
+audit design and evaluation. The framework provides a clear  basis for rejecting ill -
+conside red “audit” procedures that fail many or all of these criteria.
 
-L_] verifiedvoting.org 
+2
+Cumulatively, the standards, and the supporting discussion sections, depict wide -
+ranging election audits not as just more work election officials should do, but as an
+ongoing public investment in excellence and public confidence. In this connection, we
+especially endorse the standard that “Audits should be adequately funded by
+applicable public resources” (page 5, emphasis ours) and the point that funding must
+account for “the time and personnel required to conduct audits” as well as the direct
+costs (page 12).
+We also appreciate the emphasis on public communication and transparency, not only
+as two distinct standards, but throughout the document. Transparency sometimes is
+construed as a technical or merely legal requirement, but at root it evokes the value
+that elections belong to the public. We believe that election audits matter not only for
+the specific information they provide, but also as an opportunity to communicate with
+the public —a chance for voters to see election officials working on their behalf. This
+document admirably supports that purpose through its sample language on how to
+explain various audit procedures as manifestations of broader standards.
+Election audits and their goals
+We are curious about the choice not to define election audits, even informally. The
+executive summary characterizes election audits as “a vital tool for analyzing and
+enhancing the quality of election administration” (page 1); the introduction adds that
+they “play a critical role in verifying that elections comply with laws and procedure”
+(page 2). A few pages later, under the topic of effectiveness, the draft alludes to
+audits’ “intended goal of providing meaningful and actionable insights that can
+improve election processes,” and adds (within the efficacy standard) that audits
+“should be conducted with a clear purpose in mind” (page 6). All these points are
+helpful, and a brief overarching discussion may help to bring them into focus.
+By way of example —and recognizing that definitions can lend themselves to endless
+arguments —it may be useful to say something like the following early on: “Election
+audits check various elements of election administration to verify their accuracy and
+compl iance with laws and procedures. Audits may lead to immediate corrections or
+confirmation, may inform ongoing improvements, or both.” Language like this may
+help readers and users consider both what election audits have in common and how
+their specific goal s and methods vary. For instance, the insight that “effective audits
+are timely” (page 6) snaps into focus when one realizes that an audit’s timeliness
+depends on its specific goals, as ably discussed under Efficacy on page 23.
 
-L_] verifiedvoting.org 
+3
+Specific comments
+The example table on page 3 describes a post -election tabulation audit as one in which
+“a sample of ballots are selected and retabulated, and the results are compared to the
+originally reported vote totals.” We find that “retabulated” and “retabulation” us ually
+refer to machine recounts, i.e., rescanning some or all ballots using voting system
+scanners and software. In sharp contrast, most jurisdictions conduct tabulation audits
+by manually examining a sample of the voter -verified paper ballots (or records) , either
+individually or in batches. Risk -limiting audits definitionally are required to manually
+examine paper ballots. Given that directly examining paper ballots is both the most
+common practice and widely accepted as best practice, we think it should
+unambiguously fall within the description of tabulation audits! A simple patch would
+be to insert the phrase “usually manually,” immediately after “retabulated.” This
+change would not satisfy all stakeholders, but we think it will benefit most readers.
+We have a few thoughts about the discussion of Independence starting on page 14.
+First, we note the complexity within this standard’s reference to “auditors.” The
+discussion already goes far to illuminate these nuances. As we construe it, the
+discussion st ipulates that “auditors” can refer both to the people who supervise and
+direct an audit and to the people who do the work of an audit. Drawing this distinction
+at the outset may help readers understand opportunities to ensure independence. For
+instance, ma ny tabulation audits are designed so that the people reviewing ballots are
+unaware of the “expected” vote totals. Often, ballot batches are divided among several
+counting teams, mitigating actual or perceived opportunities to influence the results.
+Related ly, random sampling (as discussed later in the document, under
+Appropriateness) also provides a measure of independence: nobody directly controls
+what ballots or other records are audited —or not audited.
+The discussion of independence opens with this statement: “Independence in election
+audits means auditors should avoid situations where their impartiality could
+reasonably be questioned.” This seems unclear to us, partly because it appears to
+recapitulate the Impartiality standard. We think the point of independence is to avoid
+situations where perceived bias could reasonably be believed to invalidate the audit
+results. Ideally, independence in audits operates independently (no pun intended) of
 
+4
+impartiality: speculation about auditors’ motives has less bite if auditors clearly cannot
+dictate outcomes. 1
+We suggest greater attention to random sampling under Appropriateness. The draft
+notes the importance of random sampling to reliably support “general conclusions
+about items such as ballots or voting equipment ” (page 21). Unfortunately, we have
+observed putatively random sampling methods that do not assure fair samples. The
+standards document can more clearly convey the importance of valid methods without
+delving into details. For instance, language like the fol lowing could be added:
+“Random sampling protocols should be carefully designed to ensure fair and
+representative samples.”
+Conclusion
+Again, we applaud these voluntary election audit standards. Naturally, we at Verified
+Voting have many opinions about election audits that are not reflected in the
+standards, and we think that is appropriate. Voluntary standards work best not as a
+long ser ies of hurdles to be cleared or avoided, but as guideposts to inform audit
+design by directing attention to what matters most. This carefully considered
+framework falls squarely within EAC’s mission and will contribute to policy discussions
+and improvement s across the country.
+Respectfully yours,
+Mark Lindeman
+Policy and Strategy Director
+Verified Voting
+1 Incidentally, the discussion of impartiality states (page 12): “While it’s not always harmful,
+unmanaged bias can undermine trust if left unchecked.” We think this was an editing error:
+“unmanaged” could be deleted.
+Two more trivial points: (1) At least in our versions of Word, the text box on page 15 appears to
+cut off the last line under “Management participation threat” (we manually resized the box to
+read it). (2) The flow chart on page 23 has a typographical erro r, “Complie Results” for
+“Compile Results.”

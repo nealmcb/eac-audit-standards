@@ -128,7 +128,7 @@ Pages through all public comments on Regulations.gov for the docket, saving each
 uv run python scripts/extract_documents.py
 ```
 
-Converts all PDF and DOCX files under `data/raw/attachments/` and `data/raw/eac_draft_audit_standards.docx` into Markdown under `data/processed/`, mirroring the raw directory structure. Uses PyMuPDF4LLM for PDFs and MarkItDown for DOCX files. When both formats exist for the same attachment, DOCX is preferred. Pass `--force` to re-extract files that already have output.
+Converts all PDF and DOCX files under `data/raw/attachments/` and `data/raw/eac_draft_audit_standards.docx` into Markdown under `data/processed/`, mirroring the raw directory structure. For PDFs, tries MarkItDown (pdfminer.six) first; falls back to PyMuPDF4LLM + Tesseract OCR for scanned/image-only PDFs. Uses MarkItDown for DOCX. When both formats exist for the same attachment, DOCX is preferred. Pass `--force` to re-extract files that already have output.
 
 ### 4. Normalize comments
 

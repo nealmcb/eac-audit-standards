@@ -1,8 +1,12 @@
 #!/usr/bin/env python3
 """Extract text from PDF and DOCX files in data/raw/ into Markdown under data/processed/.
 
-Uses PyMuPDF4LLM for PDFs and MarkItDown for DOCX files.
-When both a DOCX and PDF exist for the same attachment, the DOCX is preferred.
+Strategy:
+- DOCX: MarkItDown (preserves structure well)
+- PDF: MarkItDown first (pdfminer.six handles text-layer PDFs reliably); if output is
+  fewer than MIN_PDF_WORDS words, fall back to PyMuPDF4LLM + Tesseract OCR (for
+  scanned/image-only PDFs with no text layer).
+- When both DOCX and PDF exist for the same attachment, DOCX is preferred.
 """
 
 import argparse
@@ -13,12 +17,23 @@ ROOT = Path(__file__).parent.parent
 RAW_DIR = ROOT / "data" / "raw"
 PROCESSED_DIR = ROOT / "data" / "processed"
 
+MIN_PDF_WORDS = 100  # below this, assume MarkItDown missed a scanned PDF; retry with OCR
+
 
 def extract_pdf(src: Path, dest: Path) -> None:
+    from markitdown import MarkItDown
     import pymupdf4llm
-    md = pymupdf4llm.to_markdown(str(src))
+
+    md_converter = MarkItDown()
+    result = md_converter.convert(str(src))
+    text = result.text_content
+
+    if len(text.split()) < MIN_PDF_WORDS:
+        print(f"    MarkItDown gave {len(text.split())} words; retrying with PyMuPDF4LLM (OCR)")
+        text = pymupdf4llm.to_markdown(str(src))
+
     dest.parent.mkdir(parents=True, exist_ok=True)
-    dest.write_text(md, encoding="utf-8")
+    dest.write_text(text, encoding="utf-8")
 
 
 def extract_docx(src: Path, dest: Path) -> None:
