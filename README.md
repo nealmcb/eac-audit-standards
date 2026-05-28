@@ -1,4 +1,21 @@
-# eac-audit-standards
+# EAC Voluntary National Standards for Election Audits — Public Comment Record
+
+**Docket:** [EAC-2026-0067](https://www.regulations.gov/docket/EAC-2026-0067) · U.S. Election Assistance Commission
+**Comment period closed:** late April / early May 2026
+
+## Comment Analysis
+
+A comprehensive analysis of all 67 public submissions is available here:
+
+**[EAC-2026-0067 Comment Analysis](insights/EAC-audit-draft_Comment_analysis.md)**
+
+The report includes a summary table of all submissions, detailed individual entries, a topical synthesis, and a conclusion. It is the primary research output of this repository.
+
+The **[draft standards document](data/processed/eac_draft_audit_standards.md)** (full text, Markdown) and the **[original DOCX](data/raw/eac_draft_audit_standards.docx)** are also available.
+
+---
+
+## Pipeline
 
 Pipeline to download, normalize, and summarize public comments submitted on the U.S. Election Assistance Commission (EAC) Voluntary National Election Audit Standards docket.
 

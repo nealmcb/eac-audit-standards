@@ -1,7 +1,7 @@
 # EAC-2026-0067 Comment Analysis: Voluntary National Standards for Election Audits
 
 Docket EAC-2026-0067 — Public Comment Period (closed late April / early May 2026)
-67 unique submissions analyzed.
+71 docket entries; 67 public submissions analyzed. Four docket numbers (0007, 0009, 0017, 0024) correspond to withdrawn or non-public submissions not returned by the Regulations.gov API and are listed in their numeric positions below.
 
 ---
 
@@ -9,73 +9,77 @@ Docket EAC-2026-0067 — Public Comment Period (closed late April / early May 20
 
 | Comment ID | Submitter | Contact / Affiliation | One-Line Summary |
 |---|---|---|---|
-| [0002](#eac-2026-0067-0002) | Ronald Rivest | Academic/researcher | Commends the draft but urges addition of statistical audit (RLA) discussion, variable work estimates, contest selection guidance, and random sampling methods. |
-| [0003](#eac-2026-0067-0003) | Stephanie Singer | Election data analyst | Proposes adding an "Anomaly Audit" entry to the before/during/after table. |
-| [0004](#eac-2026-0067-0004) | Michelle Burchill | Elections field professional | Supports broader audits and endorses outside organizations conducting honest evaluations; favors separate tabulation audits covering all ballots. |
-| [0005](#eac-2026-0067-0005) | Anonymous (Civera) | Civera technology vendor | Urges statistical/forensics anomaly analysis of election results as a standard security practice nationwide. |
-| [0006](#eac-2026-0067-0006) | Gregory Lawson | Citizen, general public | Suggests state/county audit committees of election officials, former officials, and members-at-large, plus out-of-state independent auditors; calls for a new auditor credentialing profession. |
-| [0008](#eac-2026-0067-0008) | Julie Hall | Citizen, general public | Insists audits must be done by an independent third party or state auditor, not the Secretary of State. |
-| [0010](#eac-2026-0067-0010) | Dave Cantera | Citizen, general public | States that auditing in any industry requires observation by a disinterested party. |
-| [0011](#eac-2026-0067-0011) | Denise Flohr | Citizen, general public | Demands forensically independent audits; warns that self-auditing reflects poor national ethics. |
-| [0012](#eac-2026-0067-0012) | Anonymous (Ohio Election Integrity Network) | Election integrity advocacy, Ohio | Strongly urges independent, secure, accurate, and honest audits for voter confidence. |
-| [0013](#eac-2026-0067-0013) | Stephen Aleshire | Citizen, general public | Calls for disinterested third-party audits; explicitly criticizes RLAs as statistically irrelevant and misleading. |
-| [0014](#eac-2026-0067-0014) | Jayne Hall | Citizen, general public | Audits should be done by a third party with no county election board or SOS affiliation. |
-| [0015](#eac-2026-0067-0015) | Marilyn Roggenkamp | Citizen, general public | Requests independent auditors rather than SOS staff for transparency reasons. |
-| [0016](#eac-2026-0067-0016) | Anonymous Anonymous | Citizen, general public | Requests independent, objective third-party audits as far removed from the work product as possible. |
-| [0018](#eac-2026-0067-0018) | Christine Welborn | Citizen, general public | Stresses critical importance of independent auditors; objects to agencies auditing themselves. |
-| [0019](#eac-2026-0067-0019) | Diane Vernesoni | Citizen, general public | Wants independent ballot audits with full reconciliation; no uncertified result should be accepted. |
-| [0020](#eac-2026-0067-0020) | Gregory Lawson | Citizen, general public | Audits should be performed by parties independent of the county auditor, ideally two separate out-of-state parties. |
-| [0021](#eac-2026-0067-0021) | Lori Wieber | Citizen, general public | Independence from election runners is a key requirement for trust and integrity. |
-| [0022](#eac-2026-0067-0022) | Julie Adams | Citizen, general public | All audits must be done independently by credible audit firms or state auditors, not by election employees or vendors. |
-| [0023](#eac-2026-0067-0023) | Anonymous Anonymous | Citizen, general public | Urges mandatory independent audits; objects to election vendor being the auditor of its own reported totals. |
-| [0025](#eac-2026-0067-0025) | Jody Hall | Citizen, general public | Strongly urges all audits be conducted by a certified third party. |
-| [0026](#eac-2026-0067-0026) | Sharla Blakely | Citizen, general public | Insists all audits must be conducted by a third party. |
-| [0027](#eac-2026-0067-0027) | Cheryl Warren | Citizen, Texas | Calls for third-party audits; describes personal FOIA experience with Texas SOS data discrepancy. |
-| [0028](#eac-2026-0067-0028) | Marie Wood | Citizen, general public | All audits should be conducted by a third party. |
-| [0029](#eac-2026-0067-0029) | Kevin McCall | Citizen, general public | All audits should be conducted by a third-party entity. |
-| [0030](#eac-2026-0067-0030) | Robin Hayes | Citizen, general public | Emphasizes all audits must be done by a third party. |
-| [0031](#eac-2026-0067-0031) | Rosario Zarb-Cousin | Citizen, general public | Third-party audits needed for non-partisan transparency; reports must state scope, criteria, results, and be public. |
-| [0032](#eac-2026-0067-0032) | Rosario Zarb-Cousin | Citizen, general public | Independent third-party audit at least annually; scope should include security controls of election system vendors. |
-| [0033](#eac-2026-0067-0033) | Melinda Roberts | Citizen, general public | All audits must be run by a third party with no connection to any election vendor; criticizes ES&S presence during audits. |
-| [0034](#eac-2026-0067-0034) | Monica Childers | Citizen, general public | Test submission (no substantive content). |
-| [0035](#eac-2026-0067-0035) | Bill Mahavier | Citizen, general public | Audits are not fair or accurate unless done by a third party. |
-| [0036](#eac-2026-0067-0036) | Vanessa Alva | Citizen, general public | Audit should be conducted by a third party with public observers permitted. |
-| [0037](#eac-2026-0067-0037) | Gary Chick | Citizen, general public | Argues that third-party audits are required in other industries and should be required here; addresses sensitive data concern. |
-| [0038](#eac-2026-0067-0038) | Richard Koury | Citizen, general public | Seven-point structured recommendation emphasizing independent audit committees, access to all election artifacts, ballot accounting, statistical methods, and county-level reporting. |
-| [0039](#eac-2026-0067-0039) | Chris Bystroff | Citizen; attended audits; bystroffc@gmail.com | Identifies critical gap in draft: no standard for discrepancy resolution; urges evidence-based, not explanation-based, closure of discrepancies, with independent review. |
-| [0040](#eac-2026-0067-0040) | Anonymous Anonymous | Citizen, general public | Broadly supports the draft; urges plain-language public summaries and practical scalability for smaller jurisdictions. |
-| [0041](#eac-2026-0067-0041) | Robert Kufert | Citizen, general public | Draft is deficient on Vote by Mail, UOCAVA, non-citizen registration controls, and voter roll maintenance. |
-| [0042](#eac-2026-0067-0042) | Anonymous Anonymous | Citizen, general public | Detailed comments on authorization (elected officials on ballot), funding (private funding safeguards), and impartiality language. |
-| [0043](#eac-2026-0067-0043) | Doug Befort | Citizen, general public | EAC's voluntary standards lack independent audits; calls for periodic independent audits of every significant election process. |
-| [0044](#eac-2026-0067-0044) | Anonymous (Michigan Fair Elections Institute) | MFEI nonprofit, Stockbridge, MI; Patrice Johnson, chair | Urges four reforms: independent audit committee, enhanced county reporting, full access to election artifacts, and GAGAS-compliant HAVA financial audits with clawbacks. |
-| [0045](#eac-2026-0067-0045) | Richard Vermeers | Citizen, general public | Endorses Michael Raisch CPA's comments; argues all audits should be independent rather than internal. |
-| [0046](#eac-2026-0067-0046) | John Cardarelli | Citizen, general public | Auditing accuracy requires hand count compared with machine count, done by bipartisan local people chosen by lottery. |
-| [0047](#eac-2026-0067-0047) | Mark Vaeth | CPA/MBA, Livonia, MI; DOD Supervisory Auditor | Endorses MFEI's four reforms; stresses GAGAS independence as foundational; urges statistical sampling as a core audit procedure. |
-| [0048](#eac-2026-0067-0048) | Steven Work | Citizen, general public | Off-topic; advocates service requirements for voting rights; does not address election audit standards. |
-| [0049](#eac-2026-0067-0049) | Victoria Cruz | Athens, Georgia; vecruz2018@outlook.com | Supports independence standard; recommends pointing jurisdictions to credentialed election auditors (IEA CEAs, Verified Voting, state models). |
-| [0050](#eac-2026-0067-0050) | Jeff Schaeper | Retired finance manager, Oakland County, MI canvasser | Urges independent auditor (Inspector General model), access to all artifacts, pre-certification audits, HAVA funding tied to audit compliance. |
-| [0051](#eac-2026-0067-0051) | Gregory Buck | Citizen, general public | Three specific edits: extend compliance audits to year-round processes; audit committee should report to legislature, not chief election official; fix misleading description of "Non-Partisan" audit staffing. |
-| [0052](#eac-2026-0067-0052) | Marleen Laska | Citizen, general public | Endorses Michael Raisch CPA's changes without adding independent commentary. |
-| [0053](#eac-2026-0067-0053) | Anonymous (America First Legal Foundation) | AFL legal nonprofit, Washington DC; Alice Kass, attorney | Supports draft but urges addition of citizenship verification audits, ballot drop box security audits, and signature verification audit procedures. |
-| [0054](#eac-2026-0067-0054) | Eileen Watts | Citizen, general public | Urges independent audit committee administration, additional county performance reporting, and full auditor access to election artifacts. |
-| [0055](#eac-2026-0067-0055) | Anonymous (Honest Elections Project) | Nonprofit, Alexandria, VA | Broadly supportive; suggests qualifier for "no one audit can check everything" and better communication between auditors and audited parties. |
-| [0056](#eac-2026-0067-0056) | Michael Raisch | Semi-retired CPA, Colorado; michael@... | Detailed redline of draft; central concern is that independence standard must cover the chief election official controlling the audit process, not just individual auditors; recommends independent audit commission. |
-| [0057](#eac-2026-0067-0057) | Anonymous (MTX Group) | MTX Group company | Supports standards; requests deletion of "attendance is often low" language about public observation. |
-| [0058](#eac-2026-0067-0058) | Anonymous (Verified Voting) | Verified Voting nonprofit; Mark Lindeman, Policy & Strategy Director | Strongly supportive; specific suggestions on tabulation audit definition (manual examination), independence vs. impartiality distinction, and random sampling rigor. |
-| [0059](#eac-2026-0067-0059) | Anonymous (The Elections Group) | Election experts nonprofit | Comprehensive support for all fourteen standards, grounded in bipartisan practitioner workshops; emphasizes pre-certification timing and plain-language public communication. |
-| [0060](#eac-2026-0067-0060) | Anonymous Anonymous | Citizen, general public | Off-topic objection to internet-connected election equipment certification. |
-| [0061](#eac-2026-0067-0061) | Kurt Hyde | Citizen, general public | Proposes candidate-selected precinct audits (10%+ candidates may choose one precinct each), open to the public without training requirements. |
-| [0062](#eac-2026-0067-0062) | Anonymous (Citizens Oversight, Inc.) | Citizens Oversight; Raymond Lutz, Executive Director, San Diego area | Extensive technical comment: retitle as "Principles," add Public Transparency Protocols (PTPs) for real-time verifiability, machine-readable records, ballot image audits, NIST collaboration, and full L&A testing PTP procedures as companion document. |
-| [0063](#eac-2026-0067-0063) | John Droz | Independent physicist, election integrity researcher | Recommends limiting scope to federal elections; shift from suggestive to normative language; add standards for Timeliness, Accuracy, Statistical Soundness, Software-Independent Verification, and Discrepancy Reporting. |
-| [0064](#eac-2026-0067-0064) | Anonymous (Enhanced Voting) | Enhanced Voting company | Questions whether EAC developing audit standards is necessary given INTOSAI and GAO frameworks; recommends EAC define election-specific audit needs rather than broad standards. |
-| [0065](#eac-2026-0067-0065) | William Kresse | Associate Professor, Governors State University; former Chicago Board of Elections Commissioner; CPA/CFF, CFE | Applauds standards framework; calls for future credentialing of election auditors for competence assurance and professional accountability. |
-| [0066](#eac-2026-0067-0066) | Paul Burke | VoteWell.net, admin@VoteWell.net | Proposes adding ballot image audit definition, softening the independence language to allow both internal and external audits, and detailed standards for audit reports. |
-| [0067](#eac-2026-0067-0067) | Barry Chapman | Federal auditor; ISO/CMMI/NIST experience | Calls for process/equipment/data/compliance audit taxonomy, auditor credentialing, defect tracking with root-cause analysis, and placement of audit authority in Inspector General office. |
-| [0068](#eac-2026-0067-0068) | Anonymous (Center for Election Confidence, Inc.) | CEC nonprofit, Arlington, VA; Caleb J. Hays, Chief Policy Counsel | Broadly supportive; urges retitling to "Guide," clearer explanation of audit limitations, voter-centric sample language, and stronger language on observation as a voter confidence tool. |
-| [0069](#eac-2026-0067-0069) | Neal McBurnett | Computer scientist, Colorado RLA pioneer | Recommends citing key audit literature; urges cryptographic evidence protection, transparent randomization (Colorado dice model), machine-readable audit reports, and explicit guidance on audit-of-the-audit. |
-| [0070](#eac-2026-0067-0070) | Victoria Cruz | Athens, Georgia (second submission) | Supplemental comment urging voter roll audit standards; cites researcher claims of algorithmic manipulation of voter data. |
-| [0071](#eac-2026-0067-0071) | Richard Klabechek | Citizen, general public | Advocates replacing all digital intermediaries with precinct-level hand counts as the only method satisfying public proof. |
-| [0072](#eac-2026-0067-0072) | Anonymous Anonymous | Citizen, general public | Concerned that "voluntary" label will cause states to ignore the regulation; suggests renaming to "Best Practices" or similar; urges inclusion of manual hand-count verification. |
+| [0002](#eac-2026-0067-0002) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0002) | Ronald Rivest | Academic/researcher | Commends the draft but urges addition of statistical audit (RLA) discussion, variable work estimates, contest selection guidance, and random sampling methods. |
+| [0003](#eac-2026-0067-0003) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0003) | Stephanie Singer | Election data analyst | Proposes adding an "Anomaly Audit" entry to the before/during/after table. |
+| [0004](#eac-2026-0067-0004) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0004) | Michelle Burchill | Elections field professional | Supports broader audits and endorses outside organizations conducting honest evaluations; favors separate tabulation audits covering all ballots. |
+| [0005](#eac-2026-0067-0005) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0005) | Anonymous (Civera) | Civera technology vendor | Urges statistical/forensics anomaly analysis of election results as a standard security practice nationwide. |
+| [0006](#eac-2026-0067-0006) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0006) | Gregory Lawson | Citizen, general public | Suggests state/county audit committees of election officials, former officials, and members-at-large, plus out-of-state independent auditors; calls for a new auditor credentialing profession. |
+| 0007 | *(withdrawn/non-public)* | — | Withdrawn or non-public submission; not returned by Regulations.gov API. |
+| [0008](#eac-2026-0067-0008) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0008) | Julie Hall | Citizen, general public | Insists audits must be done by an independent third party or state auditor, not the Secretary of State. |
+| 0009 | *(withdrawn/non-public)* | — | Withdrawn or non-public submission; not returned by Regulations.gov API. |
+| [0010](#eac-2026-0067-0010) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0010) | Dave Cantera | Citizen, general public | States that auditing in any industry requires observation by a disinterested party. |
+| [0011](#eac-2026-0067-0011) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0011) | Denise Flohr | Citizen, general public | Demands forensically independent audits; warns that self-auditing reflects poor national ethics. |
+| [0012](#eac-2026-0067-0012) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0012) | Anonymous (Ohio Election Integrity Network) | Election integrity advocacy, Ohio | Strongly urges independent, secure, accurate, and honest audits for voter confidence. |
+| [0013](#eac-2026-0067-0013) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0013) | Stephen Aleshire | Citizen, general public | Calls for disinterested third-party audits; explicitly criticizes RLAs as statistically irrelevant and misleading. |
+| [0014](#eac-2026-0067-0014) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0014) | Jayne Hall | Citizen, general public | Audits should be done by a third party with no county election board or SOS affiliation. |
+| [0015](#eac-2026-0067-0015) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0015) | Marilyn Roggenkamp | Citizen, general public | Requests independent auditors rather than SOS staff for transparency reasons. |
+| [0016](#eac-2026-0067-0016) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0016) | Anonymous Anonymous | Citizen, general public | Requests independent, objective third-party audits as far removed from the work product as possible. |
+| 0017 | *(withdrawn/non-public)* | — | Withdrawn or non-public submission; not returned by Regulations.gov API. |
+| [0018](#eac-2026-0067-0018) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0018) | Christine Welborn | Citizen, general public | Stresses critical importance of independent auditors; objects to agencies auditing themselves. |
+| [0019](#eac-2026-0067-0019) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0019) | Diane Vernesoni | Citizen, general public | Wants independent ballot audits with full reconciliation; no uncertified result should be accepted. |
+| [0020](#eac-2026-0067-0020) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0020) | Gregory Lawson | Citizen, general public | Audits should be performed by parties independent of the county auditor, ideally two separate out-of-state parties. |
+| [0021](#eac-2026-0067-0021) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0021) | Lori Wieber | Citizen, general public | Independence from election runners is a key requirement for trust and integrity. |
+| [0022](#eac-2026-0067-0022) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0022) | Julie Adams | Citizen, general public | All audits must be done independently by credible audit firms or state auditors, not by election employees or vendors. |
+| [0023](#eac-2026-0067-0023) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0023) | Anonymous Anonymous | Citizen, general public | Urges mandatory independent audits; objects to election vendor being the auditor of its own reported totals. |
+| 0024 | *(withdrawn/non-public)* | — | Withdrawn or non-public submission; not returned by Regulations.gov API. |
+| [0025](#eac-2026-0067-0025) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0025) | Jody Hall | Citizen, general public | Strongly urges all audits be conducted by a certified third party. |
+| [0026](#eac-2026-0067-0026) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0026) | Sharla Blakely | Citizen, general public | Insists all audits must be conducted by a third party. |
+| [0027](#eac-2026-0067-0027) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0027) | Cheryl Warren | Citizen, Texas | Calls for third-party audits; describes personal FOIA experience with Texas SOS data discrepancy. |
+| [0028](#eac-2026-0067-0028) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0028) | Marie Wood | Citizen, general public | All audits should be conducted by a third party. |
+| [0029](#eac-2026-0067-0029) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0029) | Kevin McCall | Citizen, general public | All audits should be conducted by a third-party entity. |
+| [0030](#eac-2026-0067-0030) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0030) | Robin Hayes | Citizen, general public | Emphasizes all audits must be done by a third party. |
+| [0031](#eac-2026-0067-0031) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0031) | Rosario Zarb-Cousin | Citizen, general public | Third-party audits needed for non-partisan transparency; reports must state scope, criteria, results, and be public. |
+| [0032](#eac-2026-0067-0032) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0032) | Rosario Zarb-Cousin | Citizen, general public | Independent third-party audit at least annually; scope should include security controls of election system vendors. |
+| [0033](#eac-2026-0067-0033) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0033) | Melinda Roberts | Citizen, general public | All audits must be run by a third party with no connection to any election vendor; criticizes ES&S presence during audits. |
+| [0034](#eac-2026-0067-0034) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0034) | Monica Childers | Citizen, general public | Test submission (no substantive content). |
+| [0035](#eac-2026-0067-0035) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0035) | Bill Mahavier | Citizen, general public | Audits are not fair or accurate unless done by a third party. |
+| [0036](#eac-2026-0067-0036) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0036) | Vanessa Alva | Citizen, general public | Audit should be conducted by a third party with public observers permitted. |
+| [0037](#eac-2026-0067-0037) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0037) | Gary Chick | Citizen, general public | Argues that third-party audits are required in other industries and should be required here; addresses sensitive data concern. |
+| [0038](#eac-2026-0067-0038) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0038) | Richard Koury | Citizen, general public | Seven-point structured recommendation emphasizing independent audit committees, access to all election artifacts, ballot accounting, statistical methods, and county-level reporting. |
+| [0039](#eac-2026-0067-0039) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0039) | Chris Bystroff | Citizen; attended audits; bystroffc@gmail.com | Identifies critical gap in draft: no standard for discrepancy resolution; urges evidence-based, not explanation-based, closure of discrepancies, with independent review. |
+| [0040](#eac-2026-0067-0040) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0040) | Anonymous Anonymous | Citizen, general public | Broadly supports the draft; urges plain-language public summaries and practical scalability for smaller jurisdictions. |
+| [0041](#eac-2026-0067-0041) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0041) | Robert Kufert | Citizen, general public | Draft is deficient on Vote by Mail, UOCAVA, non-citizen registration controls, and voter roll maintenance. |
+| [0042](#eac-2026-0067-0042) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0042) | Anonymous Anonymous | Citizen, general public | Detailed comments on authorization (elected officials on ballot), funding (private funding safeguards), and impartiality language. |
+| [0043](#eac-2026-0067-0043) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0043) | Doug Befort | Citizen, general public | EAC's voluntary standards lack independent audits; calls for periodic independent audits of every significant election process. |
+| [0044](#eac-2026-0067-0044) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0044) | Anonymous (Michigan Fair Elections Institute) | MFEI nonprofit, Stockbridge, MI; Patrice Johnson, chair | Urges four reforms: independent audit committee, enhanced county reporting, full access to election artifacts, and GAGAS-compliant HAVA financial audits with clawbacks. |
+| [0045](#eac-2026-0067-0045) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0045) | Richard Vermeers | Citizen, general public | Endorses Michael Raisch CPA's comments; argues all audits should be independent rather than internal. |
+| [0046](#eac-2026-0067-0046) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0046) | John Cardarelli | Citizen, general public | Auditing accuracy requires hand count compared with machine count, done by bipartisan local people chosen by lottery. |
+| [0047](#eac-2026-0067-0047) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0047) | Mark Vaeth | CPA/MBA, Livonia, MI; DOD Supervisory Auditor | Endorses MFEI's four reforms; stresses GAGAS independence as foundational; urges statistical sampling as a core audit procedure. |
+| [0048](#eac-2026-0067-0048) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0048) | Steven Work | Citizen, general public | Off-topic; advocates service requirements for voting rights; does not address election audit standards. |
+| [0049](#eac-2026-0067-0049) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0049) | Victoria Cruz | Athens, Georgia; vecruz2018@outlook.com | Supports independence standard; recommends pointing jurisdictions to credentialed election auditors (IEA CEAs, Verified Voting, state models). |
+| [0050](#eac-2026-0067-0050) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0050) | Jeff Schaeper | Retired finance manager, Oakland County, MI canvasser | Urges independent auditor (Inspector General model), access to all artifacts, pre-certification audits, HAVA funding tied to audit compliance. |
+| [0051](#eac-2026-0067-0051) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0051) | Gregory Buck | Citizen, general public | Three specific edits: extend compliance audits to year-round processes; audit committee should report to legislature, not chief election official; fix misleading description of "Non-Partisan" audit staffing. |
+| [0052](#eac-2026-0067-0052) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0052) | Marleen Laska | Citizen, general public | Endorses Michael Raisch CPA's changes without adding independent commentary. |
+| [0053](#eac-2026-0067-0053) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0053) | Anonymous (America First Legal Foundation) | AFL legal nonprofit, Washington DC; Alice Kass, attorney | Supports draft but urges addition of citizenship verification audits, ballot drop box security audits, and signature verification audit procedures. |
+| [0054](#eac-2026-0067-0054) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0054) | Eileen Watts | Citizen, general public | Urges independent audit committee administration, additional county performance reporting, and full auditor access to election artifacts. |
+| [0055](#eac-2026-0067-0055) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0055) | Anonymous (Honest Elections Project) | Nonprofit, Alexandria, VA | Broadly supportive; suggests qualifier for "no one audit can check everything" and better communication between auditors and audited parties. |
+| [0056](#eac-2026-0067-0056) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0056) | Michael Raisch | Semi-retired CPA, Colorado; michael@... | Detailed redline of draft; central concern is that independence standard must cover the chief election official controlling the audit process, not just individual auditors; recommends independent audit commission. |
+| [0057](#eac-2026-0067-0057) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0057) | Anonymous (MTX Group) | MTX Group company | Supports standards; requests deletion of "attendance is often low" language about public observation. |
+| [0058](#eac-2026-0067-0058) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0058) | Anonymous (Verified Voting) | Verified Voting nonprofit; Mark Lindeman, Policy & Strategy Director | Strongly supportive; specific suggestions on tabulation audit definition (manual examination), independence vs. impartiality distinction, and random sampling rigor. |
+| [0059](#eac-2026-0067-0059) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0059) | Anonymous (The Elections Group) | Election experts nonprofit | Comprehensive support for all fourteen standards, grounded in bipartisan practitioner workshops; emphasizes pre-certification timing and plain-language public communication. |
+| [0060](#eac-2026-0067-0060) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0060) | Anonymous Anonymous | Citizen, general public | Off-topic objection to internet-connected election equipment certification. |
+| [0061](#eac-2026-0067-0061) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0061) | Kurt Hyde | Citizen, general public | Proposes candidate-selected precinct audits (10%+ candidates may choose one precinct each), open to the public without training requirements. |
+| [0062](#eac-2026-0067-0062) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0062) | Anonymous (Citizens Oversight, Inc.) | Citizens Oversight; Raymond Lutz, Executive Director, San Diego area | Extensive technical comment: retitle as "Principles," add Public Transparency Protocols (PTPs) for real-time verifiability, machine-readable records, ballot image audits, NIST collaboration, and full L&A testing PTP procedures as companion document. |
+| [0063](#eac-2026-0067-0063) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0063) | John Droz | Independent physicist, election integrity researcher | Recommends limiting scope to federal elections; shift from suggestive to normative language; add standards for Timeliness, Accuracy, Statistical Soundness, Software-Independent Verification, and Discrepancy Reporting. |
+| [0064](#eac-2026-0067-0064) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0064) | Anonymous (Enhanced Voting) | Enhanced Voting company | Questions whether EAC developing audit standards is necessary given INTOSAI and GAO frameworks; recommends EAC define election-specific audit needs rather than broad standards. |
+| [0065](#eac-2026-0067-0065) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0065) | William Kresse | Associate Professor, Governors State University; former Chicago Board of Elections Commissioner; CPA/CFF, CFE | Applauds standards framework; calls for future credentialing of election auditors for competence assurance and professional accountability. |
+| [0066](#eac-2026-0067-0066) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0066) | Paul Burke | VoteWell.net, admin@VoteWell.net | Proposes adding ballot image audit definition, softening the independence language to allow both internal and external audits, and detailed standards for audit reports. |
+| [0067](#eac-2026-0067-0067) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0067) | Barry Chapman | Federal auditor; ISO/CMMI/NIST experience | Calls for process/equipment/data/compliance audit taxonomy, auditor credentialing, defect tracking with root-cause analysis, and placement of audit authority in Inspector General office. |
+| [0068](#eac-2026-0067-0068) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0068) | Anonymous (Center for Election Confidence, Inc.) | CEC nonprofit, Arlington, VA; Caleb J. Hays, Chief Policy Counsel | Broadly supportive; urges retitling to "Guide," clearer explanation of audit limitations, voter-centric sample language, and stronger language on observation as a voter confidence tool. |
+| [0069](#eac-2026-0067-0069) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0069) | Neal McBurnett | Computer scientist, Colorado RLA pioneer | Recommends citing key audit literature; urges cryptographic evidence protection, transparent randomization (Colorado dice model), machine-readable audit reports, and explicit guidance on audit-of-the-audit. |
+| [0070](#eac-2026-0067-0070) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0070) | Victoria Cruz | Athens, Georgia (second submission) | Supplemental comment urging voter roll audit standards; cites researcher claims of algorithmic manipulation of voter data. |
+| [0071](#eac-2026-0067-0071) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0071) | Richard Klabechek | Citizen, general public | Advocates replacing all digital intermediaries with precinct-level hand counts as the only method satisfying public proof. |
+| [0072](#eac-2026-0067-0072) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0072) | Anonymous Anonymous | Citizen, general public | Concerned that "voluntary" label will cause states to ignore the regulation; suggests renaming to "Best Practices" or similar; urges inclusion of manual hand-count verification. |
 
 ---
 
@@ -133,6 +137,12 @@ Lawson argues the draft is too long and too detailed, and proposes a governance 
 
 ---
 
+### EAC-2026-0067-0007 — (withdrawn/non-public)
+
+This docket number corresponds to a withdrawn or non-public submission that was not returned by the Regulations.gov API and is not available for analysis.
+
+---
+
 ### EAC-2026-0067-0008 — Julie Hall
 
 **Date:** 2026-05-20
@@ -140,6 +150,12 @@ Lawson argues the draft is too long and too detailed, and proposes a governance 
 **Organization:** None listed (citizen)
 
 Hall's comment is brief and direct: the audit must be done by an independent third party or the State Auditor who has the staff and mission to conduct it. Allowing the Secretary of State to perform the audit is, in Hall's view, "putting the hen in charge of the hen house." This is representative of dozens of similar short comments in the docket.
+
+---
+
+### EAC-2026-0067-0009 — (withdrawn/non-public)
+
+This docket number corresponds to a withdrawn or non-public submission that was not returned by the Regulations.gov API and is not available for analysis.
 
 ---
 
@@ -213,6 +229,12 @@ Requests independent, objective third-party audits from parties with no special 
 
 ---
 
+### EAC-2026-0067-0017 — (withdrawn/non-public)
+
+This docket number corresponds to a withdrawn or non-public submission that was not returned by the Regulations.gov API and is not available for analysis.
+
+---
+
 ### EAC-2026-0067-0018 — Christine Welborn
 
 **Date:** 2026-05-20
@@ -270,6 +292,12 @@ Adams specifies that auditors should not be election employees, election officia
 **Organization:** None listed (citizen)
 
 This commenter makes the vendor-as-auditor argument explicitly: the vendor paid to report the vote totals should not also be the auditor verifying its own reporting. The commenter also objects to the Secretary of State auditing elections the SOS administered. Uses the "fox guarding the henhouse" analogy with colorful elaboration about the absurdity of letting the guard count remaining chickens after feathers are found in his teeth.
+
+---
+
+### EAC-2026-0067-0024 — (withdrawn/non-public)
+
+This docket number corresponds to a withdrawn or non-public submission that was not returned by the Regulations.gov API and is not available for analysis.
 
 ---
 
@@ -418,6 +446,7 @@ Koury offers a seven-point structured proposal: (1) An independent Audit Committ
 **Date:** 2026-05-20
 **Submitter:** Chris Bystroff
 **Organization:** None listed (citizen; has attended post-election audits; bystroffc@gmail.com)
+**Attachments:** [DOCX (1)](../data/raw/attachments/EAC-2026-0067-0039/attachment_1.docx) · [PDF (1)](../data/raw/attachments/EAC-2026-0067-0039/attachment_1.pdf)
 
 This is one of the most legally and technically sophisticated submissions in the docket. Bystroff identifies a specific gap: the draft says nothing about what must happen when an audit finds a discrepancy between the machine tally and the manual count. He illustrates the problem with *Johnson v. Martins*, 30 Misc.3d 844 (N.Y. 2010), where a court ruled that a discrepancy was "reconcilable" solely because the administering authority offered "a clear and logical explanation" — no documentary corroboration required, no independent review.
 
@@ -472,7 +501,7 @@ Befort argues that election offices have long enjoyed operational discretion tha
 **Date:** 2026-05-20
 **Submitter:** Anonymous, on behalf of Michigan Fair Elections Institute (MFEI)
 **Organization:** MFEI, 501(c)(3), Stockbridge, MI; Patrice Johnson, Chair and Founder; contact@mifairelections.com; 517-420-7978
-**Attachment:** MFEI investigation of Michigan elections, with request for EAC OIG audit assessment
+**Attachment:** MFEI investigation of Michigan elections, with request for EAC OIG audit assessment — [PDF](../data/raw/attachments/EAC-2026-0067-0044/attachment_1.pdf)
 
 This is a lengthy, structured organizational comment. MFEI urges the EAC to adopt four specific reforms: (1) creation of an Independent Audit Committee to administer audits, removing them from any entity with a stake in the outcome; (2) enhanced county-level reporting beyond mere verification of results, providing granular jurisdiction-level data; (3) full access for auditors to all election artifacts with appropriate voter confidentiality protections; and (4) substantive financial audits of HAVA grant recipients under GAGAS/Yellow Book standards, with clawback of funds and individual accountability for violations.
 
@@ -505,7 +534,7 @@ Cardarelli argues that auditing accuracy requires a hand count compared against 
 **Date:** 2026-05-20
 **Submitter:** Mark Vaeth, CPA/MBA
 **Organization:** Citizen, Livonia, MI; retired DOD Supervisory Auditor with 25+ years of experience under GAGAS
-**Attachment:** MFEI letter (Attachment 1) and MFEI request for EAC OIG assessment (Attachment 2)
+**Attachment:** MFEI letter (Attachment 1) and MFEI request for EAC OIG assessment (Attachment 2) — [DOCX (1)](../data/raw/attachments/EAC-2026-0067-0047/attachment_1.docx) · [PDF (1)](../data/raw/attachments/EAC-2026-0067-0047/attachment_1.pdf) · [PDF (2)](../data/raw/attachments/EAC-2026-0067-0047/attachment_2.pdf)
 
 Vaeth writes as a credentialed auditor with federal government experience and explicitly frames his comments in terms of GAGAS requirements. He endorses MFEI's four reforms (see 0044) and the Raisch CPA redline (see 0056). He argues that independence under GAGAS is not optional — it is foundational — and that election officials auditing themselves fails the most basic test of objectivity and public credibility. Beyond endorsing the MFEI reforms, Vaeth independently recommends that the standards explicitly require statistical sampling (random selection of precincts, ballots, voter records, and poll books) as a core audit procedure, arguing that such methods provide defensible, representative evidence of systemic issues that self-audits have repeatedly failed to detect. The MFEI attachments in this submission are identical to those in 0044.
 
@@ -526,6 +555,7 @@ This submission is effectively off-topic. It advocates for a "Civic Responsibili
 **Date:** 2026-05-20
 **Submitter:** Victoria Cruz
 **Organization:** None listed (citizen); Athens, Georgia; vecruz2018@outlook.com
+**Attachments:** [DOCX (1)](../data/raw/attachments/EAC-2026-0067-0049/attachment_1.docx) · [PDF (1)](../data/raw/attachments/EAC-2026-0067-0049/attachment_1.pdf)
 
 Cruz offers a constructive and practically oriented comment. She particularly appreciates the Independence standard, which she agrees is essential. However, she notes that most local election offices lack full-time audit experts, statisticians, or credentialed professionals, and argues the draft would be significantly stronger if it explicitly directed jurisdictions to established professional resources. She identifies three: the Institute of Election Auditors (IEA), which trains and credentials Certified Election Auditors (CEAs) who are primarily CPAs; Verified Voting's audit team; and state-level models (New Mexico's independent auditor hired by the SOS; New Jersey's professional audit team appointed by the AG). Her specific recommendations are an addition to the Independence standard pointing to these resources, sample RFP/contract language for smaller jurisdictions to hire experts, and organizational references so officials do not have to start from scratch. Cruz also submitted 0070 as a supplemental comment on voter rolls.
 
@@ -546,6 +576,7 @@ Schaeper says the most recent version of the draft is significantly better than 
 **Date:** 2026-05-20
 **Submitter:** Gregory Buck
 **Organization:** None listed (citizen)
+**Attachments:** [DOCX (1)](../data/raw/attachments/EAC-2026-0067-0051/attachment_1.docx) · [PDF (1)](../data/raw/attachments/EAC-2026-0067-0051/attachment_1.pdf)
 
 Three specific, targeted edits to the draft. First: the compliance audit description should be revised to say procedures were followed "throughout the year," not just "throughout the election," to capture year-round voter registration, list maintenance, and related activities. Second: on independence, Buck argues that audits should not be under the direction of the chief election official but should report to a joint legislative committee mandated by statute to be bipartisan, with the election official involved only to facilitate logistics. Third: the Flexibility table describing "Non-Partisan" audit staffing is incorrect and misleading — the description implies non-disclosure of party affiliations equals neutrality, which Buck says is a falsehood. He proposes replacing the description with: "Party affiliations, if any, are not disclosed."
 
@@ -574,6 +605,7 @@ AFL's lengthy, footnoted comment supports the draft but urges three specific add
 **Ballot drop box security audits:** AFL notes that nearly 13,000 drop boxes were used in the 2022 election and approximately 40% of mail ballots were returned at drop boxes. The draft's general security provisions do not address drop box-specific chain-of-custody requirements. AFL urges guidance on continuous video surveillance, bipartisan collection logs, tamper-evident seals, and collection schedule documentation.
 
 **Signature verification audits:** AFL argues that signature verification is a primary safeguard against fraudulent mail-in ballots and the draft barely mentions it. AFL specifically urges separate reporting of ballots rejected for missing versus non-matching signatures (treating these as fundamentally different phenomena), review of automated signature verification systems' accuracy rates, and a random-sample comparison of adjudications to assess consistency. AFL argues that without this specificity, the standard will not improve actual practice.
+**Attachments:** [PDF](../data/raw/attachments/EAC-2026-0067-0053/attachment_1.pdf)
 
 ---
 
@@ -592,6 +624,7 @@ Watts proposes three specific changes mirroring the MFEI priorities: (1) shift a
 **Date:** 2026-05-20
 **Submitter:** Anonymous, on behalf of Honest Elections Project
 **Organization:** Honest Elections Project, nonprofit, Alexandria, VA; info@honestelections.org
+**Attachments:** [PDF](../data/raw/attachments/EAC-2026-0067-0055/attachment_1.pdf)
 
 A substantive organizational comment generally supportive of the draft. The Honest Elections Project cites polling data showing 95% of registered voters believe elections should be transparent and 86% support routine audits of election offices. The comment praises the draft's balance between flexibility and consistency and its emphasis on public communication. Two specific suggestions are offered: (1) On page 24, under Efficacy, the statement "No one audit can check every part of the election" should be qualified with something like: "While no one audit can check every part of the election, some audits involve a comprehensive review from start to finish, or a combination of types can give voters confidence in each audited component." (2) On public communication: the draft emphasizes public communication but underemphasizes the corresponding need for communication between the auditor and the audited party; without context from officials, data that appears anomalous might be entirely explained by operational factors, and good communication back to officials is essential to accurate results and audit credibility.
 
@@ -602,7 +635,7 @@ A substantive organizational comment generally supportive of the draft. The Hone
 **Date:** 2026-05-20
 **Submitter:** Michael Raisch
 **Organization:** None listed (semi-retired CPA, Colorado)
-**Attachments:** Redlined draft of the full EAC document with proposed changes; Colorado public policy memo recommending similar reforms for that state
+**Attachments:** Redlined draft of the full EAC document with proposed changes; Colorado public policy memo recommending similar reforms for that state — [DOCX (1)](../data/raw/attachments/EAC-2026-0067-0056/attachment_1.docx) · [PDF (1)](../data/raw/attachments/EAC-2026-0067-0056/attachment_1.pdf) · [PDF (2)](../data/raw/attachments/EAC-2026-0067-0056/attachment_2.pdf)
 
 This is one of the most comprehensive individual submissions in the docket. Raisch provides a detailed "redline" copy of the entire draft document with specific proposed changes, plus a companion state-level memo to the Colorado Secretary of State.
 
@@ -631,6 +664,7 @@ MTX Group applauds the publication of the audit standards and offers a single sp
 **Date:** 2026-05-20
 **Submitter:** Anonymous, on behalf of Verified Voting
 **Organization:** Verified Voting, nonpartisan nonprofit; Mark Lindeman, Policy and Strategy Director
+**Attachments:** [PDF](../data/raw/attachments/EAC-2026-0067-0058/attachment_1.pdf)
 
 Lindeman identifies himself as two-time executive editor of the influential *Principles and Best Practices for Post-Election Tabulation Audits* document, giving him unusual authority on the subject matter.
 
@@ -645,7 +679,7 @@ Specific comments: (1) The document does not define "election audits," and a bri
 **Date:** 2026-05-20
 **Submitter:** Anonymous, on behalf of The Elections Group
 **Organization:** The Elections Group, election experts nonprofit
-**Attachment:** Duplicate copy of same comment (Attachments 1 and 2 are identical)
+**Attachment:** Duplicate copy of same comment (Attachments 1 and 2 are identical) — [PDF (1)](../data/raw/attachments/EAC-2026-0067-0059/attachment_1.pdf) · [PDF (2)](../data/raw/attachments/EAC-2026-0067-0059/attachment_2.pdf)
 
 This is the most comprehensive organizational endorsement in the docket. The Elections Group describes its own multi-year process: systems mapping of election funding constraints and operational realities, two multi-day bipartisan practitioner workshops (2022 and 2023) with state and local officials from across the country, and publication of nine standards for tabulation audits. The submission walks through all fourteen of the draft's standards and provides a statement of support for each one, grounded in their parallel research.
 
@@ -678,11 +712,13 @@ Hyde proposes a distinctive approach: rather than random precinct selection, can
 **Date:** 2026-05-20
 **Submitter:** Anonymous, on behalf of Citizens Oversight, Inc.
 **Organization:** Citizens Oversight; Raymond Lutz, Executive Director; raylutz@citizensoversight.org; 619-820-5321
-**Attachments:** Main comment document; companion "Public Transparency Protocol (PTP) Procedures" technical document
+**Attachments:** Main comment document; companion "Public Transparency Protocol (PTP) Procedures" technical document — [PDF (1)](../data/raw/attachments/EAC-2026-0067-0062/attachment_1.pdf) · [PDF (2)](../data/raw/attachments/EAC-2026-0067-0062/attachment_2.pdf)
 
-This is one of the most technically detailed submissions in the docket. Lutz argues that the draft is better characterized as a principles document than an operational standards document, and recommends retitling it accordingly ("Voluntary National Principles for Election Auditing and Testing"). He urges that a companion technical standards document be explicitly anticipated.
+This is one of the most technically detailed submissions in the docket. Lutz's central proposal is the **Public Transparency Protocol (PTP)** — a scripted, in-process sequence of actions conducted in public in which critical steps are performed, explained, and documented in real time, enabling observers to verify both actions and recorded results as they happen. This is framed as an operational control essential where full independence is not feasible: even when an election official must participate in the audit, a PTP constrains what they can do unobserved.
 
-Key additions he proposes: (1) Expand scope to explicitly include Logic and Accuracy (L&A) testing. (2) Introduce a new concept called "Public Transparency Protocol (PTP)" — a scripted, in-process sequence of actions conducted in public in which critical steps are performed, explained, and documented in real time, enabling observers to verify both actions and recorded results as they happen. This is framed as an operational control essential where full independence is not feasible. (3) Require complete and contemporaneous documentation including intermediate results and all repeated measurements. (4) Require machine-readable as well as human-readable audit records; recommend NIST collaboration for standardizing record formats. (5) Add a Ballot Image Audit (BIA) type to the audit type table. (6) Add a Ballot Accounting Audit type. (7) Avoid implicit preference for any single audit method; ensure all audit methods' limitations are explicitly stated.
+Beyond the PTP, Lutz argues that the draft is better characterized as a principles document than an operational standards document and recommends retitling it accordingly ("Voluntary National Principles for Election Auditing and Testing"), urging that a companion technical standards document be explicitly anticipated.
+
+Further additions he proposes: (1) Expand scope to explicitly include Logic and Accuracy (L&A) testing. (3) Require complete and contemporaneous documentation including intermediate results and all repeated measurements. (4) Require machine-readable as well as human-readable audit records; recommend NIST collaboration for standardizing record formats. (5) Add a Ballot Image Audit (BIA) type to the audit type table. (6) Add a Ballot Accounting Audit type. (7) Avoid implicit preference for any single audit method; ensure all audit methods' limitations are explicitly stated.
 
 The companion PTP document provides starter procedures for six processes: batch comparison audit, RLA, ballot collection and chain-of-custody, L&A testing (both scanner and BMD end-to-end), hash verification, and real-time backup and preservation. Each procedure specifies real-time visibility, no hidden steps, complete records, structured recording, observer verification points, and production of scannable artifacts.
 
@@ -693,7 +729,7 @@ The companion PTP document provides starter procedures for six processes: batch 
 **Date:** 2026-05-20
 **Submitter:** John Droz, jr.
 **Organization:** None listed (independent physicist, election integrity researcher); aaprjohn@northnet.org
-**Attachment:** Full comment PDF
+**Attachment:** Full comment PDF — [PDF](../data/raw/attachments/EAC-2026-0067-0063/attachment_1.pdf)
 
 Droz leads with two structural recommendations. First: the document should explain upfront that it applies only to federal elections, which would reduce federalism objections. Second: the document should shift from a "suggestive and flexible" tone to a "normative and aspirational" one, so that even if standards cannot be mandated, they are framed as proper and reasonable goals for states desiring accurate and secure national elections.
 
@@ -716,6 +752,7 @@ Enhanced Voting raises a structural challenge: both INTOSAI and the GAO already 
 **Date:** 2026-05-20
 **Submitter:** William J. Kresse, M.S.A., J.D., CPA/CFF, CFE, CGMA, Esq.
 **Organization:** Associate Professor, Governors State University; former Commissioner, Chicago Board of Elections
+**Attachments:** [PDF](../data/raw/attachments/EAC-2026-0067-0065/attachment_1.pdf)
 
 Kresse applauds the draft as thorough and well-considered. He is particularly pleased by the inclusion of Ethics, Impartiality, Independence, Competence, and Transparency as core topics. His one forward-looking recommendation is that the EAC begin establishing a credentialing system for election auditors. He argues that public confidence depends not just on how audits are conducted but on who conducts them. Credentialing would assure the public that auditors have been vetted for competence through education, training, background checks, and testing. It would also create a mechanism for professional discipline of auditors who violate professional standards. This is a prospective recommendation rather than a critique of the current draft.
 
@@ -726,6 +763,7 @@ Kresse applauds the draft as thorough and well-considered. He is particularly pl
 **Date:** 2026-05-20
 **Submitter:** Paul Burke
 **Organization:** VoteWell.net; admin@VoteWell.net
+**Attachments:** [PDF](../data/raw/attachments/EAC-2026-0067-0066/attachment_1.pdf)
 
 Burke offers three distinct suggestions. First: define a Ballot Image Audit (BIA) as an audit that re-analyzes verified ballot images to check election results without rescanning paper — different from the Automated Independent Ballot Audit (AIBA) already in the document, which rescans through a different tabulation system. He notes that BIAs are used statewide in Georgia, Maryland, and South Carolina. Second: soften the independence language to allow both internal and external audits as in financial auditing, and make audit reports transparent about which type was used. He proposes deleting "conducted at the direction of the chief election official" from the Authorization standard and revising the Independence standard to say reports should be clear "whether they were done by election officials or others." Third: establish standards for audit reports, listing twelve elements (dates, topics, discrepancies and explanations, extent and coverage, limitations, methods, who appointed auditors, contractor selection, team size and composition, legal references, links to election results, and links to supplemental materials). He notes these standards would enable future EAVS and policy survey data collection.
 
@@ -746,6 +784,7 @@ Chapman provides a technically structured comment rooted in his federal auditing
 **Date:** 2026-05-20
 **Submitter:** Anonymous, on behalf of Center for Election Confidence, Inc. (CEC)
 **Organization:** CEC, nonprofit, Arlington, VA; Caleb J. Hays, Chief Policy Counsel; info@electionconfidence.org
+**Attachments:** [PDF](../data/raw/attachments/EAC-2026-0067-0068/attachment_1.pdf)
 
 CEC supports the draft overall but raises several framing and language concerns. First: they recommend retitling the document to "Voluntary Guide for Election Audits" or similar, because the word "standards" inadvertently implies EAC has final authority over appropriate application. Second: they emphasize throughout that clear explanation of audit limitations is as important as explaining what audits do — voters need to understand why audits cannot, for example, reconstruct individual voter choices after a secret ballot is cast. Third: they raise concerns about specific sample language that could be misread: the Authorization sample language ("officials are familiar with procedures in advance") could imply the fix is in; the Appropriateness sample language about "random sampling as required by statute" is opaque to non-lawyers. Fourth: they suggest the Transparency section strengthen the value of observation as a voter confidence tool rather than framing observers primarily as a potential interference problem. Fifth: when errors are identified, officials should explain completely, apologize, and publish correction steps — voters care more about correction than perfection.
 
@@ -768,6 +807,7 @@ McBurnett's comment is one of the most substantively technical and policy-sophis
 **Chain of Custody as Verifiable Evidence:** Chain-of-custody documentation should produce verifiable evidence (timestamped, cryptographically protected where feasible), not just internal records. He references provenance tracking systems using ballot images and cryptographic commitments.
 
 **Audit Reports:** McBurnett and Burke (0066) and Lutz (0062) converge on a detailed twelve-element standard for audit reports: timing, scope, methods, findings (discrepancies and explanations), observation conditions, audit team composition, legal references, and links to supporting materials and datasets. McBurnett specifically asks for machine-readable formats to enable national-level data collection via EAVS.
+**Attachments:** [PDF](../data/raw/attachments/EAC-2026-0067-0069/attachment_1.pdf)
 
 ---
 
@@ -802,6 +842,8 @@ This commenter appreciates the work but is concerned that the word "voluntary" w
 ---
 
 ## 3. Topical Synthesis
+
+The 67 public submissions divide into three rough camps. The first is election-administration professionals and good-government organizations who broadly support the draft and want it sharpened — The Elections Group, Verified Voting, Honest Elections Project, Center for Election Confidence, Rivest, and McBurnett. The second is auditors and accountants who judge the draft against professional auditing norms — Raisch, Vaeth, Schaeper, Chapman, Kresse, and MFEI. The third is a large bloc of individual citizens, many submitting brief, nearly identical statements demanding "third-party" or "independent" audits without elaboration. A smaller set is skeptical of the whole enterprise or focused on specific grievances (voter rolls, machine distrust, HAVA compliance). These camps share more than they disagree on — all endorse independence, transparency, and record access — but they differ significantly in how they frame the problem and what solutions they trust.
 
 ### Broad Areas of Agreement
 
@@ -913,6 +955,18 @@ The docket contains a politically distinct cluster of commenters who frame elect
 
 ---
 
+#### Private Funding
+
+The draft and the large majority of commenters assume public funding exclusively; this is treated as a safeguard for independence. Anonymous (0042) is a notable dissent, explicitly raising the scenario where public funding is insufficient and asking whether private funding with adequate safeguards might be permissible as a fallback. No other commenter joins this position, and the dominant professional view (Raisch 0056, Vaeth 0047, MFEI 0044) treats independence from private interests as non-negotiable alongside independence from political actors. The EAC must decide whether to explicitly bar private funding or to allow it under defined conditions — either choice is a substantive policy call that the draft currently sidesteps.
+
+---
+
+#### Public vs. Expert Audience
+
+A recurring stylistic tension runs through the docket: the document's intended audience. The Center for Election Confidence (0068) and Anonymous (0040) want language and sample text pitched to the average voter — arguing that a misunderstood audit can do more harm than no audit at all, and that phrases like "random sampling as required by statute" are opaque to non-lawyers. On the other side, McBurnett (0069), Rivest (0002), Citizens Oversight (0062), and Droz (0063) want more technical rigor: explicit RLA guidance, cryptographic chain-of-custody, statistical sampling protocol standards, and peer-reviewed citations. The Elections Group's 2024 research suggests these need not be entirely in conflict — process-focused, plain-language communication measurably raised voter confidence — but the EAC faces a genuine document-architecture challenge in serving both audiences. The companion-document model Citizens Oversight proposes (core principles in the main document, technical detail in companion documents) may offer the best structural path.
+
+---
+
 #### Timing (Pre- vs. Post-Certification)
 
 There is clear convergence that tabulation audits meant to validate outcomes must be completed before certification.
@@ -981,4 +1035,6 @@ The comment record reveals that the EAC's draft framework — organized around O
 
 **Voluntary authority vs. accountability.** Several commenters note the obvious: voluntary standards that carry no consequence for non-adoption may simply be ignored. The EAC's leverage — HAVA funding — is raised repeatedly. The EAC must decide whether to link audit compliance to funding eligibility (as Schaeper 0050, MFEI 0044, and Vaeth 0047 urge) and if so, how to define compliance given the flexibility the draft otherwise endorses.
 
-**Technical detail vs. accessibility.** The draft is criticized for being too long by some (Lawson 0006) and too vague by others (Droz 0063, Citizens Oversight 0062, McBurnett 0069). The EAC faces a document-architecture challenge: how to provide sufficient technical guidance for sophisticated implementers (who need specifics on random sampling, ballot image audits, discrepancy resolution, cryptographic chain-of-custody) while remaining accessible to small jurisdictions with limited staff, resources, and expertise. The companion-document model suggested by Citizens Oversight (0062) — core principles in the main document, technical standards in separate companion documents — may offer the best path forward.
+**Technical detail vs. accessibility.** The draft is criticized for being too long by some (Lawson 0006) and too vague by others (Droz 0063, Citizens Oversight 0062, McBurnett 0069). The EAC faces a document-architecture challenge: how to provide sufficient technical guidance for sophisticated implementers (who need specifics on random sampling, ballot image audits, discrepancy resolution, cryptographic chain-of-custody) while remaining accessible to small jurisdictions with limited staff, resources, and expertise. The companion-document model suggested by Citizens Oversight (0062) — core principles in the main document, technical standards in separate companion documents — may offer the best structural path.
+
+A final version that tightens the independence and discrepancy-resolution language, adds clearer guidance on sampling and on what happens when numbers do not match, standardizes audit reports, and keeps its plain-language flexible posture while resisting the "voluntary means optional" critique would address the largest share of the substantive feedback in this docket. Some tensions — particularly the deep disagreement between commenters who trust statistical sampling and risk-limiting audits and those who distrust all machine-mediated counting — cannot be resolved by drafting choices, because the commenters themselves do not agree. But the EAC can acknowledge these methodological disputes explicitly, make clear which positions align with established election science, and invite continued dialogue on the contested questions while acting on the areas of broad expert convergence.
