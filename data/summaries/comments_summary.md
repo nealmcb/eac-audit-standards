@@ -5,7 +5,7 @@
 **From organizations:** 12
 **From individuals:** 59
 
-## Top Organizations
+## Organizations submitting comments
 - **Enhanced Voting** (2 comments)
 - **MTX Group** (1 comment)
 - **Michigan Fair Elections Institute** (1 comment)
@@ -17,50 +17,106 @@
 - **Ohio Election Integrity Network** (1 comment)
 - **Verified Voting** (1 comment)
 
-## Top Themes (word frequency, stop words removed)
-- `audits` — 84 occurrences
-- `elections` — 46 occurrences
-- `state` — 33 occurrences
-- `auditing` — 30 occurrences
-- `independent` — 28 occurrences
-- `voter` — 26 occurrences
-- `must` — 25 occurrences
-- `done` — 22 occurrences
-- `party` — 22 occurrences
-- `eac` — 22 occurrences
-- `states` — 19 occurrences
-- `results` — 19 occurrences
-- `trust` — 19 occurrences
-- `ballots` — 18 occurrences
-- `see` — 17 occurrences
+## Top themes (word frequency across all submissions including attachments)
+- `audits` — 289 occurrences
+- `results` — 116 occurrences
+- `process` — 106 occurrences
+- `ballot` — 105 occurrences
+- `elections` — 102 occurrences
+- `voter` — 99 occurrences
+- `auditors` — 94 occurrences
+- `verification` — 93 occurrences
+- `ballots` — 90 occurrences
+- `state` — 89 occurrences
+- `can` — 86 occurrences
+- `transparency` — 76 occurrences
+- `record` — 74 occurrences
+- `observers` — 74 occurrences
+- `officials` — 68 occurrences
 
-## Representative Excerpts by Theme
+## Representative excerpts by theme
 
-### Theme: `audits`
-> ...1. Independent Audit Committee. Administration of election audits should be shifted from entities within the election system to an independent audit committee. Audits conducted by parties with a stake in the outcome cannot command public confidence. Independence is the foundatio...
+### `audits`
+> ...ort for the EAC’s Voluntary National Standards for Election Audits** 
 
-### Theme: `elections`
-> ...ssioners Palmer and Hovland: On behalf of the Michigan Fair Elections Institute (MFEI), a 501(c)(3) nonprofit organization dedicated to election integrity research and public education, I write to express strong support for the proposed changes to the EAC’s audit standards curren...
+## **Background** 
 
-### Theme: `state`
-> ...t examine the underlying record are audits in name only. 4. States that receive HAVA grant funding should be subject to substantive, financial audits in compliance with Yellow Book, Generally Accepted Government Accounting Standards (GAGAS). Violators should have their funds claw...
+The Elections Group is a team of election experts supporting election professionals through collaboration, thought leadership and effective strategies to elevate best practices. We partner...
 
-### Theme: `auditing`
-> ...er to assess the accuracy of an election, states should use auditing of the election processes, equipment (tabulators and databases), data (ballots and records) and compliance (were the tasks performed correctly). The EAC has developed a draft auditing standard to accommodate the...
+### `results`
+> ...the public and political demand for fast, final, certified results. Our research showed that policymakers and budget decision-makers do not always have an adequate understanding of election processes, including audits and what is required to run them effectively. 
 
-### Theme: `independent`
-> ...e Commission to adopt all four of the following reforms. 1. Independent Audit Committee. Administration of election audits should be shifted from entities within the election system to an independent audit committee. Audits conducted by parties with a stake in the outcome cannot...
+We support st...
 
-## Most Detailed Comments
+### `process`
+> ...rganizations, looking to implement new programs and improve processes for voters and stakeholders. We share resources, develop solutions and provide direct support. 
 
-**Anonymous (Michigan Fair Elections Institute)** — 2026-05-20T04:00:00Z
-> April 26, 2025 Commissioner Donald Palmer Commissioner Benjamin W. Hovland U.S. Election Assistance Commission 633 3rd Street NW, Suite 200 Washington, DC 20001 cc: Andrew Sassoon, FOIA Public Liaison Seton Parsons, Associate Counsel Dear Commissioners Palmer and Hovland: On behalf of the Michigan Fair Elections Institute (MFEI), a 501(c)(3) nonprofit organization dedicated to election integrity r...
+Our team has done extensive research and collaborated with state and local officials across the country to develo...
 
-**Steven Work** — 2026-05-20T04:00:00Z
-> Universal suffrage of all men is National suicide. Universal suffrage of all women is .. well we are living it, non-spot slide into Clown-World Hell. The only people that may have full citizen powers (voting, public employment, or candidacy for public office, sit on a jury, ..) are those that finished 4 years of community, national, or military volunteer service (room & board & basics provides, al...
+### `ballot`
+> ...of priority areas, such as voter registration maintenance, ballot design and ballot reconciliation. Our team guided participants through structured questions about scope, timing, responsibility, sampling and procedures, allowing them to translate abstract ideas into actionable m...
 
-**Barry Chapman** — 2026-05-20T04:00:00Z
-> Comments on Election Audit Standards, Docket EAC-2026-0067 April 27, 2026 Introduction I have experience in conducting many types of audits, including ISO-9001, ISO 10000, ISO 27001, CMMI-DEV, CMMI-SVC, and Federal government audits of processes, police departments, and research facilities. I have managed Federal ISSO cybersecurity assessments of major IT systems using NIST SP800-53a as a control ...
+### `elections`
+> ...l Standards for Election Audits** 
+
+## **Background** 
+
+The Elections Group is a team of election experts supporting election professionals through collaboration, thought leadership and effective strategies to elevate best practices. We partner with state and local election juris...
+
+## Longest submissions (by full text including attachments)
+
+**Anonymous (The Elections Group)** — 2026-05-20T04:00:00Z
+> ## **Support for the EAC’s Voluntary National Standards for Election Audits** 
+
+## **Background** 
+
+The Elections Group is a team of election experts supporting election professionals through collaboration, thought leadership and effective strategies to elevate best practices. We partner with state and local election jurisdictions as well as nonprofit organizations, looking to implement new progra...
+
+**Anonymous (Citizens Oversight, Inc.)** — 2026-05-20T04:00:00Z
+> ## **Comment on: Election Audit Standards** 
+
+Submitted by: Raymond Lutz, Citizens Oversight ( https://citizensoversight.org ) Contact: raylutz@citizensoversight.org (619-820-5321) Date: April 27, 2026 
+
+REF: M2053 
+
+This comment is based on the following document: "Voluntary National Standards for Election Audits – A Practical Guide" Federal Register Number: 2026-03583 https://www.regulations.gov...
+
+**Anonymous (America First Legal Foundation)** — 2026-05-20T04:00:00Z
+> April 27, 2026 
+
+## **Submitted via https://www.regulations.gov** 
+
+ATTN: Clearinghouse Division U.S. Election Assistance Commission 633 3rd Street NW, Suite 200 Washington, DC 20001 
+
+## **Re: AFL Comment in Support of the Election Assistance Commission’s Voluntary National Election Audit Standards (Docket ID: EAC-2026-0067)** 
+
+America First Legal Foundation (“AFL”) respectfully submits this com...
+
+**Neal McBurnett** — 2026-05-20T04:00:00Z
+> ## **Neal McBurnett, Comments on Voluntary National Standards for Election Audits draft** 
+
+Submitted 2026-04-27. 
+
+I am an computer scientist and expert in election auditing. I have helped promote and enhance Colorado’s audits since 2003. In 2010 I pioneered risk-limiting audits in Colorado, and have consulted with other states on their audits for over 2 decades. 
+
+An excellent framework for goal...
+
+**Chris Bystroff** — 2026-05-20T04:00:00Z
+> April 8, 2026
+
+Chris Bystroff
+
+U.S. Election Assistance Commission
+
+1335 East West Highway, Suite 4300
+
+Silver Spring, MD 20910
+
+*Submitted via regulations.gov*
+
+**Re: Public Comment on Proposed Voluntary National Election Audit Standards (Draft Version, February 18, 2026)**
+
+I respectfully submit this comment in response to the Election Assistance Commission’s Request for Comment on the proposed ...
 
 ---
 *Generated by eac-audit-standards pipeline.*

@@ -1,4 +1,9 @@
-"""Summarize public comments: top themes and representative excerpts."""
+"""Summarize public comments: top themes and representative excerpts.
+
+Uses combined text: CSV comment_text for inline comments, plus extracted
+attachment Markdown for the 16 stub comments, so all 71 submissions are
+represented in the analysis.
+"""
 
 from __future__ import annotations
 
@@ -66,6 +71,35 @@ def find_excerpt(texts: list[str], keyword: str, max_len: int = 220) -> str:
     return ""
 
 
+def load_attachment_text(comment_id: str) -> str:
+    """Return concatenated text from all extracted attachment .md files for a comment."""
+    attach_dir = DATA_PROCESSED / "attachments" / comment_id
+    if not attach_dir.is_dir():
+        return ""
+    parts = []
+    for md_file in sorted(attach_dir.glob("attachment_*.md")):
+        parts.append(md_file.read_text(encoding="utf-8"))
+    return "\n\n".join(parts)
+
+
+def full_text(row: pd.Series) -> str:
+    """Return the best available text for a comment: attachment if stub, else CSV text."""
+    csv_text = str(row.get("comment_text") or "").strip()
+    is_stub = csv_text.lower().startswith("see attached") or len(csv_text) < 40
+    if is_stub or (row.get("has_attachments") and not csv_text):
+        attach = load_attachment_text(str(row["id"]))
+        return attach if attach else csv_text
+    return csv_text
+
+
+def commenter_name(row: pd.Series) -> str:
+    first = "" if str(row.get("first_name") or "") in ("", "nan") else str(row["first_name"]).strip()
+    last = "" if str(row.get("last_name") or "") in ("", "nan") else str(row["last_name"]).strip()
+    name = f"{first} {last}".strip() or "Anonymous"
+    org_val = "" if str(row.get("organization") or "") in ("", "nan") else str(row["organization"]).strip()
+    return f"{name} ({org_val})" if org_val else name
+
+
 def build_summary(df: pd.DataFrame) -> str:
     lines = ["# Public Comments Summary", ""]
     lines.append(f"**Total comments:** {len(df)}")
@@ -79,44 +113,43 @@ def build_summary(df: pd.DataFrame) -> str:
     lines.append("")
 
     if not with_org.empty:
-        lines.append("## Top Organizations")
+        lines.append("## Organizations submitting comments")
         top_orgs = with_org["organization"].value_counts().head(10)
         for org, cnt in top_orgs.items():
             plural = "s" if cnt > 1 else ""
             lines.append(f"- **{org}** ({cnt} comment{plural})")
         lines.append("")
 
-    comment_texts = [t for t in active["comment_text"].dropna().tolist() if str(t).strip()]
+    # Build full texts: attachment content for stub comments, CSV text for inline ones.
+    active = active.copy()
+    active["full_text"] = active.apply(full_text, axis=1)
+    full_texts = [t for t in active["full_text"].tolist() if t.strip()]
 
-    if comment_texts:
-        lines.append("## Top Themes (word frequency, stop words removed)")
-        themes = top_words(comment_texts, n=15)
+    if full_texts:
+        lines.append("## Top themes (word frequency across all submissions including attachments)")
+        themes = top_words(full_texts, n=15)
         for word, count in themes:
             lines.append(f"- `{word}` — {count} occurrence{'s' if count > 1 else ''}")
         lines.append("")
 
-        lines.append("## Representative Excerpts by Theme")
+        lines.append("## Representative excerpts by theme")
         for word, _ in themes[:5]:
-            excerpt = find_excerpt(comment_texts, word)
+            excerpt = find_excerpt(full_texts, word)
             if excerpt:
-                lines.append(f"\n### Theme: `{word}`")
+                lines.append(f"\n### `{word}`")
                 lines.append(f"> {excerpt}")
         lines.append("")
 
-        lines.append("## Most Detailed Comments")
+        lines.append("## Longest submissions (by full text including attachments)")
         detailed = (
-            active.assign(text_len=active["comment_text"].str.len())
-            .nlargest(3, "text_len")
+            active.assign(text_len=active["full_text"].str.len())
+            .nlargest(5, "text_len")
         )
         for _, row in detailed.iterrows():
-            first = "" if str(row.get("first_name") or "") in ("", "nan") else str(row["first_name"]).strip()
-            last = "" if str(row.get("last_name") or "") in ("", "nan") else str(row["last_name"]).strip()
-            name = f"{first} {last}".strip() or "Anonymous"
-            org_val = "" if str(row.get("organization") or "") in ("", "nan") else str(row["organization"]).strip()
-            org = f" ({org_val})" if org_val else ""
+            name = commenter_name(row)
             date = str(row.get("submitted_date", "n/a"))
-            lines.append(f"\n**{name}{org}** — {date}")
-            body = str(row.get("comment_text") or "")
+            lines.append(f"\n**{name}** — {date}")
+            body = str(row.get("full_text") or "")
             preview = body[:400] + ("..." if len(body) > 400 else "")
             lines.append(f"> {preview}")
         lines.append("")
