@@ -3,7 +3,7 @@
 > **AI-generated analysis, lightly reviewed by a human.** The comment analysis below was produced by an AI assistant (Claude) using the full text of all public submissions. It has been reviewed but not exhaustively fact-checked.
 
 **Docket:** [EAC-2026-0067](https://www.regulations.gov/docket/EAC-2026-0067) · U.S. Election Assistance Commission  
-**Comment period closed:** late April / early May 2026  
+**Comment period closed:** April 27, 2026 (11:59 PM EDT)  
 **Public comments analyzed:** 67
 
 ---

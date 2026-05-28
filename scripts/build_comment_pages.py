@@ -54,15 +54,43 @@ def build_page(row: pd.Series) -> str:
 
     date = str(row.get("submitted_date") or "").split("T")[0]
 
-    lines = [
+    regs_url = f"https://www.regulations.gov/comment/{comment_id}"
+
+    # Build attachment download links (relative from data/processed/comments/)
+    raw_paths = clean(row.get("attachment_paths") or "")
+    attach_links = ""
+    if raw_paths:
+        parts = []
+        for p in raw_paths.split("|"):
+            p = p.strip()
+            if not p:
+                continue
+            fname = p.rsplit("/", 1)[-1]
+            ext = fname.rsplit(".", 1)[-1].upper() if "." in fname else fname
+            n = fname.rsplit("_", 1)[-1].split(".")[0] if "_" in fname else "1"
+            label = ext if raw_paths.count("|") == 0 else f"{ext} ({n})"
+            rel = f"../../raw/{p}"
+            parts.append(f"[{label}]({rel})")
+        attach_links = " · ".join(parts)
+
+    header_lines = [
         f"# {comment_id} — {submitter}",
         "",
         f"**Date:** {date}",
         f"**Docket:** EAC-2026-0067",
-        "",
-        "---",
-        "",
+        f"**Source:** [Regulations.gov]({regs_url})",
     ]
+    if attach_links:
+        header_lines.append(f"**Attachments:** {attach_links}")
+        header_lines += [
+            "",
+            "> **Note:** This page shows machine-extracted text from the submission. "
+            "For attachments, extraction may be incomplete or imperfectly formatted — "
+            "download the original files linked above for the authoritative version.",
+        ]
+    header_lines += ["", "---", ""]
+
+    lines = header_lines
 
     csv_text = str(row.get("comment_text") or "").strip()
     attachments = load_attachments(comment_id)
