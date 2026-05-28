@@ -1,4 +1,4 @@
-.PHONY: all fetch fetch-document fetch-comments extract normalize summarize \
+.PHONY: all fetch fetch-document fetch-comments extract normalize build-pages summarize \
         summarize-document summarize-comments test clean clean-comments setup
 
 ## Run the full pipeline: fetch → normalize → summarize
@@ -22,6 +22,10 @@ fetch-comments:
 ## Extract text from PDF and DOCX attachments into Markdown under data/processed/
 extract:
 	uv run python scripts/extract_documents.py
+
+## Build one Markdown file per comment (metadata + full text + attachments merged)
+build-pages:
+	uv run python scripts/build_comment_pages.py
 
 ## Normalize raw comments into structured CSV / JSONL
 normalize:

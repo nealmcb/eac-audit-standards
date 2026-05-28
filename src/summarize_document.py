@@ -97,12 +97,6 @@ def main() -> None:
     out_path.write_text(summary)
     log.info("Wrote document summary to %s", out_path)
 
-    # Save full extracted text for downstream use.
-    text_path = DATA_PROCESSED / "document_text.txt"
-    with text_path.open("w") as fh:
-        for _, text in paragraphs:
-            fh.write(text + "\n\n")
-    log.info("Wrote full extracted text to %s", text_path)
 
 
 if __name__ == "__main__":

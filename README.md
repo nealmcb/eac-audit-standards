@@ -37,7 +37,8 @@ This repository is designed to:
 │   │   ├── eac_draft_audit_standards.docx
 │   │   └── attachments/{comment-id}/attachment_N.{pdf,docx}
 │   ├── processed/
-│   │   ├── eac_draft_audit_standards.md   ← extracted Markdown
+│   │   ├── eac_draft_audit_standards.md      ← extracted Markdown
+│   │   ├── comments/{comment-id}.md          ← per-comment pages (primary)
 │   │   ├── attachments/{comment-id}/attachment_N.md
 │   │   ├── comments.csv
 │   │   └── comments.jsonl
@@ -85,6 +86,7 @@ make fetch-document     # download the EAC draft standards document
 make fetch-comments     # download all public comments from Regulations.gov
 make extract            # extract text from PDF/DOCX attachments → Markdown
 make normalize          # normalize comments → CSV + JSONL
+make build-pages        # build one .md per comment (metadata + text + attachments merged)
 make summarize          # generate Markdown summaries
 ```
 

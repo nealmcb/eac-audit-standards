@@ -11,8 +11,7 @@ The comment period closed in late April/early May 2026. There are **71 public co
 ## Files in this project
 
 ### The draft document
-- `data/processed/eac_draft_audit_standards.md` — **readable Markdown extraction** (use this)
-- `data/processed/document_text.txt` — plain-text extraction (older, less structured)
+- `data/processed/eac_draft_audit_standards.md` — full text as Markdown (use this)
 - `data/raw/eac_draft_audit_standards.docx` — original binary (not parseable by Claude Projects)
 - `data/summaries/document_summary.md` — structured outline with headings preserved
 
@@ -23,10 +22,11 @@ The document has six top-level sections: Executive Summary, Introduction, Using 
 - `data/processed/comments.jsonl` — same data as newline-delimited JSON
 - `data/raw/comments.jsonl` — full raw API responses (includes all original fields)
 
-### PDF/DOCX attachments (extracted)
-Extracted text lives at `data/processed/attachments/{comment-id}/attachment_N.md`. The directory name is the comment ID, matching the CSV's `id` column. For comments where `comment_text` is a stub like "See attached file(s)", the attachment is the entire submission.
+### Per-comment pages (primary source for Claude Projects)
+`data/processed/comments/{comment-id}.md` — one self-contained file per comment with metadata header, inline text, and any attachment text merged in. **This is the right place to search for submission content.** 71 files, one per comment.
 
-The raw binary files in `data/raw/attachments/` are not parseable by Claude Projects — use the `.md` versions under `data/processed/`.
+### PDF/DOCX attachments (extracted, for pipeline use)
+`data/processed/attachments/{comment-id}/attachment_N.md` — individual attachment extractions used as input to `build_comment_pages.py`. The per-comment pages above already include this content.
 
 ---
 
@@ -35,15 +35,19 @@ The raw binary files in `data/raw/attachments/` are not parseable by Claude Proj
 Claude Projects cannot parse binary files from GitHub — PDFs and DOCX files are silently skipped. Import only the files Claude can actually read:
 
 **Include:**
-- `data/processed/` — all `.md` extractions, `comments.csv`, `comments.jsonl`
+- `data/processed/comments/` — 71 per-comment pages; primary search target for submission content
+- `data/processed/eac_draft_audit_standards.md` — full draft document text
+- `data/processed/comments.csv` — structured metadata for all 71 comments (useful for filtering/listing)
 - `data/summaries/` — `document_summary.md`, `comments_summary.md`
-- `data/raw/comments.jsonl` — full raw API responses; useful if you need original fields not in the processed CSV (submitter metadata, raw comment structure)
+- `data/raw/comments.jsonl` — full raw API responses (if you need original fields beyond the CSV)
 - `CLAUDE_PROJECT.md`, `README.md`
 
-**Exclude (Claude can't read these):**
-- `data/raw/attachments/` — binary PDFs and DOCXs; the `.md` extractions in `data/processed/attachments/` cover everything
-- `data/raw/eac_draft_audit_standards.docx` — binary; `data/processed/eac_draft_audit_standards.md` is the readable version
+**Exclude (not useful in Claude Projects):**
+- `data/raw/attachments/` — binary PDFs/DOCXs; content already merged into `data/processed/comments/`
+- `data/processed/attachments/` — intermediate extractions; content already merged into `data/processed/comments/`
+- `data/raw/eac_draft_audit_standards.docx` — binary; `.md` version exists
 - `data/raw/comments_page_*.json` — redundant with `data/raw/comments.jsonl`
+- `data/processed/comments.jsonl` — redundant with `comments.csv` for most uses
 
 ---
 
@@ -89,8 +93,8 @@ Use 3–5 distinctive words you'd expect to appear in the actual text. For organ
 
 ## How to use this project
 
-**For a specific commenter's position:** check the table above to see if they have an attachment, then search for the substance using topical words (see search guidance above). The `comment_text` field in the CSV is complete for the 55 non-attachment comments; for the 16 above, the `.md` extraction is the primary source.
+**For a specific commenter's position:** search `data/processed/comments/` using 3–5 topical words from their submission (see search guidance above). Each file is self-contained with full text including any attachments.
 
-**For cross-cutting themes:** `data/summaries/comments_summary.md` covers all submissions including attachment text. `data/processed/comments.csv` has `comment_text` for all 71 — complete for the 55 inline comments, stubs only for the 16 with attachments.
+**For cross-cutting themes:** `data/summaries/comments_summary.md` summarises all 71 submissions. `data/processed/comments.csv` has structured metadata and is useful for listing/filtering by submitter, date, or organisation.
 
 **For the draft document itself:** read `data/processed/eac_draft_audit_standards.md` for the full text in Markdown form.
