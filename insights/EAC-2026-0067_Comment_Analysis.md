@@ -2,7 +2,7 @@
 
 **Docket:** EAC-2026-0067 · U.S. Election Assistance Commission
 **Document under review:** *Voluntary National Standards for Election Audits — A Practical Guide* (published 91 Fed. Reg. 8472, Feb. 23, 2026)
-**Comment period:** Closed late April / early May 2026
+**Comment period:** Closed April 27, 2026
 **Total public comments:** 71
 
 ---

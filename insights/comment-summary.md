@@ -1,7 +1,7 @@
 # EAC Docket 2026-0067 — Public Commenters
 
 **Docket:** EAC-2026-0067 — *Voluntary National Standards for Election Audits — A Practical Guide*
-**Comment period:** closed late April / early May 2026
+**Comment period:** closed April 27, 2026
 **Total comments:** 71 (12 from organizations, 59 from individuals)
 **Comments with file attachments:** 16
 

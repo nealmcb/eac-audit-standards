@@ -2,14 +2,14 @@
 
 > **AI-generated analysis, lightly reviewed by a human.** This document was produced by an AI assistant (Claude) using the full text of all public submissions. It has been reviewed but not exhaustively fact-checked. Readers should consult the original submissions for authoritative detail.
 
-Docket EAC-2026-0067 — Public Comment Period (closed late April / early May 2026)
+Docket EAC-2026-0067 — Public Comment Period (closed April 27, 2026)
 71 docket entries; 67 public submissions analyzed. Four docket numbers (0007, 0009, 0017, 0024) correspond to withdrawn or non-public submissions not returned by the Regulations.gov API and are listed in their numeric positions below.
 
 ---
 
 ## Executive Summary
 
-The U.S. Election Assistance Commission published a draft *Voluntary National Standards for Election Audits — A Practical Guide* in February 2026 (91 Fed. Reg. 8472). The 60-day public comment period closed in late April / early May 2026. This document analyzes all 67 substantive public submissions.
+The U.S. Election Assistance Commission published a draft *Voluntary National Standards for Election Audits — A Practical Guide* in February 2026 (91 Fed. Reg. 8472). The 60-day public comment period closed on April 27, 2026. This document analyzes all 67 substantive public submissions.
 
 **Who commented.** The submissions fall into three distinct groups: election-administration professionals and good-government organizations who broadly support the draft and want it strengthened (Verified Voting, The Elections Group, Honest Elections Project, Center for Election Confidence, Rivest, McBurnett); auditors and accountants who judge the draft against GAGAS and professional auditing norms (Raisch, Vaeth, Schaeper, Chapman, Kresse, MFEI); and a large bloc of individual citizens — many submitting brief, nearly identical statements — demanding third-party independent audits. A smaller set focuses on voter roll integrity, machine distrust, or skepticism of the standards project itself.
 

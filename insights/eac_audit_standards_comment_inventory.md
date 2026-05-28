@@ -3,7 +3,7 @@
 **Docket:** EAC-2026-0067  
 **Total public comments:** 71 (all active, none withdrawn)  
 **Organizations:** 12 · **Individuals:** 59  
-**Comment period closed:** late April / early May 2026  
+**Comment period closed:** April 27, 2026  
 **Compiled from:** Regulations.gov public record, comment IDs `EAC-2026-0067-0002` through `EAC-2026-0067-0072`
 
 ---
