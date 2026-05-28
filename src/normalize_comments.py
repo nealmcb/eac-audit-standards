@@ -78,6 +78,12 @@ def main() -> None:
     normalized = [normalize_comment(item) for item in items]
     df = pd.DataFrame(normalized)
 
+    before = len(df)
+    df = df.drop_duplicates(subset=["id"], keep="first")
+    dropped = before - len(df)
+    if dropped:
+        log.warning("Dropped %d duplicate record(s) (page-boundary overlap in fetch)", dropped)
+
     csv_path = DATA_PROCESSED / "comments.csv"
     df.to_csv(csv_path, index=False)
     log.info("Wrote %d rows to %s", len(df), csv_path)
