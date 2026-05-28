@@ -5,7 +5,7 @@
 Docket EAC-2026-0067 — Public Comment Period (closed April 27, 2026)
 71 docket entries; 67 public submissions analyzed. Four docket numbers (0007, 0009, 0017, 0024) correspond to withdrawn or non-public submissions not returned by the Regulations.gov API and are listed in their numeric positions below.
 
-**Analysis date:** 2026-05-28
+**Analysis timestamp:** 2026-05-28T16:59Z (UTC)
 
 ---
 
