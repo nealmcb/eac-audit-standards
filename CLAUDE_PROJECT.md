@@ -4,7 +4,7 @@
 
 This repository contains the full public record for **EAC docket EAC-2026-0067**, the U.S. Election Assistance Commission's request for comment on its draft *Voluntary National Standards for Election Audits — A Practical Guide*.
 
-The comment period closed in late April/early May 2026. There are **71 public comments** from individuals and organizations.
+The comment period closed in late April/early May 2026. There are **67 public comments** from individuals and organizations. (The sequence has 5 gaps — 0001, 0007, 0009, 0017, 0024 — which are withdrawn or non-public submissions not returned by the regulations.gov API.)
 
 ---
 

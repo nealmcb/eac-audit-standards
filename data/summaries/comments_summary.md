@@ -1,13 +1,13 @@
 # Public Comments Summary
 
-**Total comments:** 71
-**Active (non-withdrawn) comments:** 71
-**From organizations:** 12
-**From individuals:** 59
+**Total comments:** 67
+**Active (non-withdrawn) comments:** 67
+**From organizations:** 11
+**From individuals:** 56
 
 ## Organizations submitting comments
-- **Enhanced Voting** (2 comments)
 - **MTX Group** (1 comment)
+- **Enhanced Voting** (1 comment)
 - **Michigan Fair Elections Institute** (1 comment)
 - **Center for Election Confidence, Inc.** (1 comment)
 - **America First Legal Foundation** (1 comment)
@@ -18,20 +18,20 @@
 - **Verified Voting** (1 comment)
 
 ## Top themes (word frequency across all submissions including attachments)
-- `audits` — 289 occurrences
+- `audits` — 286 occurrences
 - `results` — 116 occurrences
 - `process` — 106 occurrences
 - `ballot` — 105 occurrences
-- `elections` — 102 occurrences
+- `elections` — 100 occurrences
 - `voter` — 99 occurrences
 - `auditors` — 94 occurrences
 - `verification` — 93 occurrences
-- `ballots` — 90 occurrences
-- `state` — 89 occurrences
-- `can` — 86 occurrences
+- `ballots` — 89 occurrences
+- `state` — 88 occurrences
+- `can` — 85 occurrences
 - `transparency` — 76 occurrences
-- `record` — 74 occurrences
 - `observers` — 74 occurrences
+- `record` — 73 occurrences
 - `officials` — 68 occurrences
 
 ## Representative excerpts by theme
