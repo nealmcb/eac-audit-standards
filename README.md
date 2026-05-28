@@ -1,17 +1,30 @@
 # EAC Voluntary National Standards for Election Audits — Public Comment Record
 
-**Docket:** [EAC-2026-0067](https://www.regulations.gov/docket/EAC-2026-0067) · U.S. Election Assistance Commission
-**Comment period closed:** late April / early May 2026
+**Docket:** [EAC-2026-0067](https://www.regulations.gov/docket/EAC-2026-0067) · U.S. Election Assistance Commission  
+**Comment period closed:** late April / early May 2026  
+**Public comments analyzed:** 67
 
-## Comment Analysis
+---
 
-A comprehensive analysis of all 67 public submissions is available here:
+# [→ Comment Analysis](https://nealmcb.github.io/eac-audit-standards/insights/EAC-audit-draft_Comment_analysis)
 
-**[EAC-2026-0067 Comment Analysis](insights/EAC-audit-draft_Comment_analysis.md)**
+Comprehensive analysis of all 67 public submissions on the EAC's draft *Voluntary National Standards for Election Audits*. Includes:
 
-The report includes a summary table of all submissions, detailed individual entries, a topical synthesis, and a conclusion. It is the primary research output of this repository.
+- **Executive Summary** — who commented, what they agreed on, the four clearest actionable recommendations, and the unresolved tensions
+- **Topical Synthesis** — independence, RLAs, transparency, discrepancy resolution, credentialing, scope, and six other major themes
+- **Findings and Recommendations** — the clearest mandates from commenters and the hardest tradeoffs
+- **Summary Table** — all 71 docket entries with one-line summaries and direct links to Regulations.gov
+- **Individual Entries** — detailed analysis of each submission with links to PDF/DOCX attachments
 
-The **[draft standards document](data/processed/eac_draft_audit_standards.md)** (full text, Markdown) and the **[original DOCX](data/raw/eac_draft_audit_standards.docx)** are also available.
+---
+
+### Key documents
+
+| Document | Link |
+|---|---|
+| Draft audit standards (full text) | [Markdown](data/processed/eac_draft_audit_standards.md) · [DOCX](data/raw/eac_draft_audit_standards.docx) |
+| Comment analysis | [GitHub Pages](https://nealmcb.github.io/eac-audit-standards/insights/EAC-audit-draft_Comment_analysis) · [Markdown source](insights/EAC-audit-draft_Comment_analysis.md) |
+| All comments (structured) | [CSV](data/processed/comments.csv) · [JSONL](data/processed/comments.jsonl) |
 
 ---
 

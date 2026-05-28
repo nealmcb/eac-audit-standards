@@ -5,7 +5,234 @@ Docket EAC-2026-0067 — Public Comment Period (closed late April / early May 20
 
 ---
 
-## 1. Summary Table
+## Executive Summary
+
+The U.S. Election Assistance Commission published a draft *Voluntary National Standards for Election Audits — A Practical Guide* in February 2026 (91 Fed. Reg. 8472). The 60-day public comment period closed in late April / early May 2026. This document analyzes all 67 substantive public submissions.
+
+**Who commented.** The submissions fall into three distinct groups: election-administration professionals and good-government organizations who broadly support the draft and want it strengthened (Verified Voting, The Elections Group, Honest Elections Project, Center for Election Confidence, Rivest, McBurnett); auditors and accountants who judge the draft against GAGAS and professional auditing norms (Raisch, Vaeth, Schaeper, Chapman, Kresse, MFEI); and a large bloc of individual citizens — many submitting brief, nearly identical statements — demanding third-party independent audits. A smaller set focuses on voter roll integrity, machine distrust, or skepticism of the standards project itself.
+
+**Where the record converges.** Near-universal agreement emerges on five points across all groups: (1) auditors should be meaningfully independent from the officials who run elections — the single most-cited theme in the entire docket; (2) audit results must be communicated transparently and in plain language; (3) tabulation audits intended to validate outcomes must be completed before certification; (4) auditors must have full access to election records and artifacts; and (5) the draft is a credible and welcome starting point — virtually no commenter argues it should be abandoned.
+
+**The four clearest actionable recommendations.** Burke (0066), McBurnett (0069), and Citizens Oversight (0062) independently converge on nearly identical twelve-element audit report standards — a politically neutral, readily implementable fix that would also enable future EAVS data collection. Raisch (0056), MFEI (0044), Vaeth (0047), and others converge on an independent multi-stakeholder audit committee model to address the governance gap the independence standard currently leaves open. Bystroff (0039) identifies a critical unaddressed gap: no standard governs what must happen when an audit finds a discrepancy — the moment when audits matter most. And Burke (0066) and Citizens Oversight (0062) both note that ballot image audits, used statewide in Georgia, Maryland, and South Carolina, are not defined anywhere in the draft.
+
+**The unresolved tensions.** Three tensions require EAC policy choices without clear consensus: the demand for full structural independence versus the practical necessity of election official involvement; statistical risk-limiting audit methods versus full hand counts (a genuine methodological disagreement between election scientists and a significant segment of the public); and the scope question — whether the standards should remain tightly focused on audit process or expand to cover voter rolls, citizenship verification, and other election-integrity concerns.
+
+---
+
+## Table of Contents
+
+1. [Executive Summary](#executive-summary)
+2. [Topical Synthesis](#topical-synthesis)
+3. [Findings and Recommendations](#findings-and-recommendations)
+4. [Summary Table](#summary-table)
+5. [Individual Comment Entries](#individual-comment-entries)
+
+---
+
+## Topical Synthesis
+
+The 67 public submissions divide into three rough camps. The first is election-administration professionals and good-government organizations who broadly support the draft and want it sharpened — The Elections Group, Verified Voting, Honest Elections Project, Center for Election Confidence, Rivest, and McBurnett. The second is auditors and accountants who judge the draft against professional auditing norms — Raisch, Vaeth, Schaeper, Chapman, Kresse, and MFEI. The third is a large bloc of individual citizens, many submitting brief, nearly identical statements demanding "third-party" or "independent" audits without elaboration. A smaller set is skeptical of the whole enterprise or focused on specific grievances (voter rolls, machine distrust, HAVA compliance). These camps share more than they disagree on — all endorse independence, transparency, and record access — but they differ significantly in how they frame the problem and what solutions they trust.
+
+### Broad Areas of Agreement
+
+Despite the enormous diversity in sophistication, ideology, and background among the 67 commenters, several themes emerge with near-universal agreement.
+
+**Transparency is non-negotiable.** Every commenter who expressed a view on the matter — from the most technically sophisticated (Verified Voting, Citizens Oversight, McBurnett) to the briefest lay citizen — agrees that audit processes and results must be publicly accessible and understandable. Public observation of audits is widely supported. Plain-language communication is specifically requested by multiple commenters (0040, 0049, 0059, 0068).
+
+**Audits must be timely.** There is strong convergence — explicitly from The Elections Group (0059), the Center for Election Confidence (0068), Droz (0063), and implicitly from many others — that tabulation audits intended to validate election results must be completed before certification. The draft's Efficacy standard addresses this but several commenters argue it needs to be stated more forcefully.
+
+**Independence matters.** While commenters disagree significantly on what independence means and how to achieve it, the desirability of some meaningful degree of independence from the audited entity is uncontested across the comment record. This is the single most frequently raised topic in the docket.
+
+**Full access to election artifacts is necessary.** MFEI (0044), Vaeth (0047), Koury (0038), Schaeper (0050), and others specifically argue that auditors must have access to all election records, from paper ballots through cast vote records and chain-of-custody documentation. Audits without access to underlying records are "audits in name only" (MFEI).
+
+**Public communication requires improvement.** Multiple commenters note that election audits are poorly understood by the public and that even technically sound audits will fail to build confidence if they are not explained in accessible language. The Elections Group (0059) cites research showing process-focused communication builds more confidence than results-focused communication.
+
+---
+
+### Major Topics with Substantive Engagement
+
+#### Independence of Auditors
+
+This is overwhelmingly the dominant topic, accounting for approximately 35–40 of the 67 submissions. The debate, however, contains important nuances obscured by the volume of brief, similar comments.
+
+**The dominant position: true independence requires institutional separation.** The large bloc of brief comments (0008–0036 range) argues simply that election officials should not audit themselves and that third parties must conduct audits. This group includes ordinary citizens, election integrity activists, and professionals from other fields who see election self-auditing as obviously anomalous compared to standards in other industries.
+
+The more sophisticated structural proposals (Raisch 0056, MFEI 0044, Vaeth 0047, Koury 0038, Buck 0051, Schaeper 0050, Chapman 0067) converge on an independent audit committee model: a standing body separate from the election administration apparatus, with bipartisan or nonpartisan membership including auditing professionals, statisticians, and representatives from across government, authorized in statute and reporting to a legislative body rather than the chief election official. The key insight shared by Raisch (0056) and Buck (0051) is that the draft's independence standard focuses on the people doing the audit work but leaves the chief election official in control of every rule governing the audit — which is the deeper structural problem.
+
+**The practitioner position: elections are uniquely complex.** Professional election organizations (Verified Voting 0058, The Elections Group 0059, and implicitly the draft itself) acknowledge independence as important but note practical constraints: election officials must be involved because of statutory custody requirements, specialized domain knowledge, and the complexity of election law that varies enormously across jurisdictions. These commenters argue for mitigating conflicts through transparency, verifiable documentation, balanced oversight bodies, and structural safeguards rather than complete removal of election officials from the audit process.
+
+**Paul Burke's nuanced middle ground (0066):** Burke argues that both internal and external audits have value — as in financial auditing, where both types exist — and that the appropriate standard is not to mandate external audits but to require audit reports to be transparent about whether they were conducted by election officials or others, allowing public assessment of independence.
+
+**The tension:** The brief-comment bloc's demand for third-party independence sits in productive tension with the practitioner acknowledgment that complete removal of election officials is often not feasible. The EAC must decide how prescriptive to be about what "degree of independence" in the current draft language actually requires in practice.
+
+---
+
+#### Scope Beyond Tabulation Audits
+
+Multiple sophisticated commenters argue the draft is insufficiently broad in scope.
+
+**Compliance and procedural audits should cover the full year, not just election day.** Buck (0051) proposes explicitly extending compliance audits to year-round voter registration, list maintenance, and related processes. Befort (0043) provides the most comprehensive list of year-round election processes deserving independent audit: voter registration processing, list maintenance, cybersecurity posture, VBM processing, records requests, and more.
+
+**HAVA financial audits.** MFEI (0044), Vaeth (0047), and Schaeper (0050) argue strongly that states receiving HAVA grant funding should be subject to substantive financial and compliance audits under GAGAS/Yellow Book, not just narrow financial compliance audits. They argue the current EAC/OIG HAVA audits focus narrowly on financial compliance while ignoring substantive HAVA mandates on voter access, election technology security, and voter roll maintenance.
+
+**Voter rolls and eligibility.** AFL (0053), Kufert (0041), Cruz's second submission (0070), and others argue the draft does not adequately address auditing of voter roll accuracy, citizenship verification, and list maintenance. AFL provides the most legally and factually developed argument, grounded in HAVA's list maintenance requirements and citing documented state-level data on non-citizen registrations.
+
+**Ballot drop boxes and signature verification.** AFL (0053) alone argues for specific audit guidance on these two areas. No other commenter explicitly joins this request, though the broader independence and access-to-artifacts community would likely support these as elements of a comprehensive procedural audit.
+
+**L&A testing and pre-election audits.** Citizens Oversight (0062) and Droz (0063) explicitly argue that logic and accuracy testing should be within the scope of these standards, and that the draft's restriction to post-election audit types is too narrow.
+
+**Ballot image audits.** Burke (0066) and Citizens Oversight (0062) both note that ballot image audits (re-analyzing verified ballot images without rescanning) are used statewide in Georgia, Maryland, and South Carolina and should be defined and recognized in the audit type table. Verified Voting (0058) implicitly endorses this by noting that the draft's tabulation audit description conflates manual examination (best practice) with machine rescanning.
+
+---
+
+#### Risk-Limiting Audits Specifically
+
+RLAs are referenced by several commenters in distinct ways.
+
+**Expert support:** Rivest (0002), McBurnett (0069), Verified Voting (0058), The Elections Group (0059), and Bystroff (0039) all treat RLAs as a recognized and generally superior audit methodology. McBurnett's comment is the most detailed, specifically praising Colorado's RLA implementation with public dice rolls and ballot manifests and recommending those practices as models for the document to cite.
+
+**Expert critique of gaps in the draft:** Rivest (0002) specifically notes that the draft fails to explain statistical audits to non-technical audiences, does not address the variable workload of statistical audits, and provides no guidance on contest selection or random sample selection methods. These are constructive criticisms intended to improve the draft's treatment of RLAs, not to question their validity.
+
+**Lay opposition:** Aleshire (0013) explicitly criticizes RLAs as "statistically irrelevant and in fact misleading," a position unsupported by the election science community but reflecting a real subset of public skepticism. No other commenter explicitly endorses Aleshire's critique of RLAs, and the professional/technical commenters who address the topic disagree with it.
+
+**Bystroff's nuanced point (0039):** Bystroff argues that RLAs are actually better than many audit approaches precisely because they require a statistical confidence threshold rather than accepting explanations for discrepancies — but the draft does not make this comparison explicit, leaving the RLA standard undefined in relation to discrepancy resolution.
+
+---
+
+#### Credentialing and Competence Standards
+
+A distinct cluster of commenters urges formal credentialing of election auditors.
+
+**For credentialing:** Kresse (0065), with the most developed professional argument, draws on his credentials (CPA/CFF, CFE, former election commissioner) to argue that public confidence depends on knowing that auditors have been vetted through education, testing, and a disciplinary mechanism. Chapman (0067) recommends auditors be credentialed for the type of audit they conduct. Cruz (0049) points to the Institute of Election Auditors' Certified Election Auditor (CEA) credential as a practical existing resource. Lawson (0006) proposes creating a new auditor profession. The Elections Group (0059) flags credentialing as a topic that surfaced in their practitioner workshops.
+
+**Against mandating specific credentials:** The draft itself and Verified Voting (0058) and Honest Elections Project (0055) take a flexible, team-based approach to competence — rather than requiring individual credentials, the audit team collectively must possess the necessary knowledge. This approach respects the reality that election law expertise and audit methodology expertise are rarely combined in credentialed professionals.
+
+**Tension:** Formal credentialing programs take years to build, whereas the EAC's standards need to be actionable now. The intermediate position — pointing jurisdictions to existing resources like IEA and Verified Voting's audit team, as Cruz (0049) proposes — may be the most practical near-term approach.
+
+---
+
+#### Transparency and Public Communication
+
+Beyond the near-universal agreement that transparency matters, several commenters engage substantively with what transparency requires in practice.
+
+**The Elections Group (0059)** provides research-backed guidance: their 2024 academic study found that process-focused communication increases voter confidence more than results-focused communication. They offer specific practical implementation advice from their workshops.
+
+**Citizens Oversight / Lutz (0062)** proposes the most detailed transparency framework: Public Transparency Protocols (PTPs) — scripted, in-process public verification sequences at critical steps including randomization, batch verification, testing procedures, and result comparison. This is a significant conceptual contribution, shifting transparency from documentation after the fact to real-time verifiable action.
+
+**McBurnett (0069)** makes a related point about verifiability: the published Colorado model (ballot manifests with hashes, public dice rolling, open-source PRNG) creates a transparency standard that allows any member of the public to independently reproduce the ballot selection. This is transparency as independent verifiability, not just access to information.
+
+**Standardized audit reports:** Burke (0066), McBurnett (0069), and Citizens Oversight (0062) all converge on the same twelve-element audit report standard (dates, topics, discrepancies and explanations, extent of coverage, audit limitations, methods, auditor appointment, contractor selection, team size/composition, legal references, links to election results, links to supporting materials). This convergence across independent commenters suggests a ripe area for the EAC to act on.
+
+**The "low attendance" issue:** MTX Group (0057) objects to the draft's note that "attendance is often low even when observation is offered," arguing it undermines the case for public observation. The Droz (0063) comment goes further, arguing "public observation must not interfere" is institutional language used to justify excluding legitimate observers, and recommends defining "meaningful observation" with explicit rights to line of sight, documentation, and real-time challenge logging.
+
+---
+
+#### Partisan vs. Nonpartisan Concerns
+
+The docket contains a politically distinct cluster of commenters who frame election integrity concerns through a partisan lens (primarily concerns about Democratic-leaning state officials in Michigan and Texas, concerns about voter rolls and non-citizen registration, etc.), and a cluster of election administration professionals who explicitly adopt a nonpartisan or bipartisan framing.
+
+**The partisan-oriented cluster** (MFEI 0044, Vaeth 0047, AFL 0053, Kufert 0041, Cruz 0070, Warren 0027) tends to frame problems in terms of specific alleged state-level misconduct, non-citizen voters, voter roll manipulation, and HAVA non-compliance in states with Democratic secretaries of state. These commenters support independent audits and GAGAS financial audits partly as mechanisms to hold those officials accountable.
+
+**The election administration community** (Verified Voting 0058, The Elections Group 0059, McBurnett 0069, Burke 0066, Chapman 0067, Honest Elections Project 0055) consistently frames the case for audits in terms of building and maintaining public confidence broadly, without naming specific parties or officials. Their arguments are methodologically grounded and applicable regardless of which party controls a given election administration.
+
+**The tension:** The EAC must produce standards that will be credible to both partisan-skeptic and partisan-neutral audiences. Standards that appear designed to address partisan concerns about specific state practices risk losing the professional election community's endorsement. Standards that ignore the politically motivated audience lose the opportunity to build confidence among a significant fraction of the voting public that has low trust in elections.
+
+**A notable convergence:** The structural demand for independent audit committees, which is the MFEI/Raisch/Vaeth coalition's central proposal, is broadly consistent with what Verified Voting, The Elections Group, and McBurnett's comment support in principle — they all endorse audit governance that reduces the chief election official's unilateral control of audit design. The coalitions differ in motivation but converge on similar structural fixes.
+
+**Buck's correction (0051):** The draft's table describing the "Non-Partisan" audit staffing model says party affiliations are not disclosed, but implies this equals neutrality. Buck's correction — changing the description to note that party affiliations are simply not disclosed, making no claim about neutrality — is a technically correct and politically important fix that several commenters would likely endorse.
+
+---
+
+#### Private Funding
+
+The draft and the large majority of commenters assume public funding exclusively; this is treated as a safeguard for independence. Anonymous (0042) is a notable dissent, explicitly raising the scenario where public funding is insufficient and asking whether private funding with adequate safeguards might be permissible as a fallback. No other commenter joins this position, and the dominant professional view (Raisch 0056, Vaeth 0047, MFEI 0044) treats independence from private interests as non-negotiable alongside independence from political actors. The EAC must decide whether to explicitly bar private funding or to allow it under defined conditions — either choice is a substantive policy call that the draft currently sidesteps.
+
+---
+
+#### Public vs. Expert Audience
+
+A recurring stylistic tension runs through the docket: the document's intended audience. The Center for Election Confidence (0068) and Anonymous (0040) want language and sample text pitched to the average voter — arguing that a misunderstood audit can do more harm than no audit at all, and that phrases like "random sampling as required by statute" are opaque to non-lawyers. On the other side, McBurnett (0069), Rivest (0002), Citizens Oversight (0062), and Droz (0063) want more technical rigor: explicit RLA guidance, cryptographic chain-of-custody, statistical sampling protocol standards, and peer-reviewed citations. The Elections Group's 2024 research suggests these need not be entirely in conflict — process-focused, plain-language communication measurably raised voter confidence — but the EAC faces a genuine document-architecture challenge in serving both audiences. The companion-document model Citizens Oversight proposes (core principles in the main document, technical detail in companion documents) may offer the best structural path.
+
+---
+
+#### Timing (Pre- vs. Post-Certification)
+
+There is clear convergence that tabulation audits meant to validate outcomes must be completed before certification.
+
+**Strong pre-certification advocates:** The Elections Group (0059) is the most emphatic — they state explicitly that "audits intended to validate the accuracy of the results should take place before certification" and encourage officials to advocate for statutory changes where state law requires post-certification audits. Bystroff (0039) makes the same point through the lens of discrepancy resolution — a post-certification audit that finds a discrepancy cannot meaningfully "confirm correct outcomes." The Center for Election Confidence (0068) calls pre-certification completion "a key voter confidence metric." Droz (0063) recommends Timeliness as a separate standard.
+
+**The draft's existing treatment:** The Efficacy standard and accompanying table already specify that tabulation audits intended to confirm correct outcomes should be completed before certifying election outcomes, and that other audit types have different appropriate timings. The commenters are largely pushing on a partially open door — but they want the language to be stronger and more explicit, and they want state laws that require post-certification audits to be identified as problematic.
+
+---
+
+#### Discrepancy Resolution
+
+Bystroff (0039) and Droz (0063) both identify the absence of any standard for what happens when an audit finds a discrepancy as a critical gap.
+
+Bystroff's argument is the most legally developed: he cites *Johnson v. Martins* to demonstrate that under current practice, an administering authority can close a discrepancy by offering an explanation without documentary corroboration, and without independent review — effectively nullifying the audit's escalation mechanism. He argues the EAC should require evidence, not explanation, to close discrepancies; place the burden of proof on the administering authority; and require independent (not self-assessed) determination of whether a discrepancy has been resolved.
+
+Droz adds a related but distinct point about negative ballot corrections reported to Edison — large adjustments to vote totals submitted without documentation — which he frames as a Negative Ballot Transparency standard.
+
+No commenter explicitly disagrees with the need for discrepancy handling guidance, but the topic receives little attention beyond these two commenters among the general comment population. This may reflect that most lay commenters focus on the audit process itself rather than on the post-discrepancy procedural question.
+
+---
+
+#### Other Significant Topics
+
+**Voluntary vs. mandatory framing:** Multiple commenters (0063 Droz, 0072, and implicitly many others) express concern that the "voluntary" framing will cause states to ignore the standards. Droz recommends shifting the language to "normative and aspirational." Anonymous (0072) proposes renaming the document. Enhanced Voting (0064) questions the utility of EAC-specific standards at all, suggesting an anchor to existing GAO/INTOSAI frameworks. The Center for Election Confidence (0068) recommends retitling to "Guide" rather than "Standards" for the opposite reason — to avoid implying the EAC has final authority.
+
+**HAVA financial accountability:** MFEI, Vaeth, and Schaeper all argue that HAVA grant compliance should have real teeth — states should lose funding if they are noncompliant with HAVA mandates, and EAC/OIG financial audits should assess substantive HAVA compliance, not just financial bookkeeping.
+
+**Machine-readable data and NIST collaboration:** McBurnett (0069) and Citizens Oversight (0062) both call for machine-readable audit record formats and recommend NIST involvement in developing standardized formats. This is a forward-looking, operationalizable recommendation that does not require taking sides on any contested policy question.
+
+**Existing literature and standards:** McBurnett (0069) specifically recommends citing the Appel/Stark Georgetown Law Technology Review article and the *Principles and Best Practices for Post-Election Tabulation Audits* document. Verified Voting (0058) also implicitly endorses this literature. These citations would ground the EAC document in existing peer-reviewed and expert-endorsed work.
+
+**The role of the document itself:** Citizens Oversight (0062) and Enhanced Voting (0064) both argue the document should be clearer about what kind of document it is — a principles document (Citizens Oversight) or a guide to existing standards (Enhanced Voting). Center for Election Confidence (0068) argues "Standards" implies too much authority; Droz (0063) argues "voluntary" implies too little aspiration.
+
+---
+
+
+---
+
+## Findings and Recommendations
+
+### What This Body of Comment Tells the EAC
+
+The 67 submissions represent a broad and politically diverse public that is deeply engaged with election audit policy. They include credentialed professionals (CPAs, federal auditors, computer scientists, attorneys, statisticians, former election commissioners), organized advocacy groups across the political spectrum (AFL, MFEI, Honest Elections Project, Verified Voting, The Elections Group, Citizens Oversight), and a large population of ordinary citizens who care about election integrity.
+
+The comment record reveals that the EAC's draft framework — organized around Objective, Professional, Effective, Secure, and Accountable topics — is broadly viewed as a good start. Substantive criticism of the framework's architecture is minimal. Most commenters want to see it strengthened, not replaced.
+
+### The Clearest Mandates from Commenters
+
+**1. Strengthen independence governance.** The most consistent substantive recommendation across professional, advocacy, and citizen commenters is that the current draft's independence standard addresses individual auditors but leaves the chief election official in control of audit design and rules. An independent, multi-stakeholder audit committee model — with bipartisan or nonpartisan composition, statutory authorization, and legislative rather than executive accountability — is proposed by Raisch (0056), MFEI (0044), Vaeth (0047), Koury (0038), Buck (0051), Schaeper (0050), and Chapman (0067). Variants of this are supported by even some more cautious commenters who want the language on independence to be more specific.
+
+**2. Require standardized audit reports.** Burke (0066), McBurnett (0069), and Citizens Oversight (0062) converge independently on nearly identical twelve-element audit report standards. The convergence is striking and represents a clearly implementable, politically neutral recommendation that could directly enable future EAVS data collection and cross-jurisdictional comparison.
+
+**3. Mandate pre-certification timing for tabulation audits.** The draft already contains this principle in the Efficacy section, but commenters including The Elections Group, Center for Election Confidence, and Bystroff want it stated more forcefully and supported by encouragement to reform state laws that require post-certification timing.
+
+**4. Address discrepancy resolution.** Bystroff's (0039) identification of this gap is unique in its legal grounding but reflects a fundamental logic: an audit that finds a discrepancy and allows the audited party to explain it away without independent review or documentary evidence has not functioned as an audit. Adding standards for discrepancy escalation and resolution would significantly strengthen the document.
+
+**5. Add ballot image audits to the audit type table.** Burke (0066) and Citizens Oversight (0062) note that ballot image audits — re-analyzing digital ballot images without rescanning — are already used statewide in Georgia, Maryland, and South Carolina but are not defined in the draft. The Automated Independent Ballot Audit defined in the draft is a different process (rescanning through a separate tabulation system). The gap should be filled.
+
+**6. Point jurisdictions to existing credentialed resources.** Cruz (0049) provides the most actionable near-term recommendation on the competence/credentialing gap: rather than building a new credentialing system, the EAC should point jurisdictions to the Institute of Election Auditors' CEA program, Verified Voting's audit team, and state-level professional models. This addresses a real implementation gap without requiring the EAC to build a credentialing apparatus.
+
+### The Hardest Tradeoffs to Resolve
+
+**Independence vs. operational reality.** The tension between the demand for genuine structural independence and the practical reality that election officials must be involved (for statutory custody reasons, domain expertise, and resource constraints) is the central unresolved tension in this docket. The EAC cannot simply mandate independent audit committees without acknowledging that most states lack the statutory framework, budget, and audit expertise to implement them. At the same time, a standard that allows unlimited self-auditing will not build the public confidence that justifies the entire enterprise.
+
+**Partisan concern vs. methodological integrity.** The substantial bloc of comments motivated by specific partisan concerns about voter roll manipulation, non-citizen voting, and Democratic-leaning state official misconduct cannot be ignored — they represent a real constituency — but their proposals (citizenship verification audits, voter roll reconstruction, allegations of algorithmic voter data manipulation) range from the reasonable (some form of eligibility audit guidance) to the unsupported by evidence. The EAC must address the credible elements of these concerns — eligibility audit guidance, HAVA financial accountability — without lending credibility to unverified conspiracy theories or creating audit requirements designed to serve partisan objectives rather than accurate elections.
+
+**Normative aspirations vs. flexibility.** Several commenters argue the document is too permissive and flexible, while others (Honest Elections Project, Center for Election Confidence) explicitly praise its flexible, adaptable approach. The EAC must determine whether flexibility is a design feature (it respects the enormous diversity of jurisdictions) or a design flaw (it allows any level of quality to call itself compliant). Droz's (0063) proposal to rename "Flexibility" as "Scalability of Verifiability" is an interesting attempt to preserve the concept while shifting its connotation from permission-to-do-less toward accommodation-of-different-capacities.
+
+**Voluntary authority vs. accountability.** Several commenters note the obvious: voluntary standards that carry no consequence for non-adoption may simply be ignored. The EAC's leverage — HAVA funding — is raised repeatedly. The EAC must decide whether to link audit compliance to funding eligibility (as Schaeper 0050, MFEI 0044, and Vaeth 0047 urge) and if so, how to define compliance given the flexibility the draft otherwise endorses.
+
+**Technical detail vs. accessibility.** The draft is criticized for being too long by some (Lawson 0006) and too vague by others (Droz 0063, Citizens Oversight 0062, McBurnett 0069). The EAC faces a document-architecture challenge: how to provide sufficient technical guidance for sophisticated implementers (who need specifics on random sampling, ballot image audits, discrepancy resolution, cryptographic chain-of-custody) while remaining accessible to small jurisdictions with limited staff, resources, and expertise. The companion-document model suggested by Citizens Oversight (0062) — core principles in the main document, technical standards in separate companion documents — may offer the best structural path.
+
+A final version that tightens the independence and discrepancy-resolution language, adds clearer guidance on sampling and on what happens when numbers do not match, standardizes audit reports, and keeps its plain-language flexible posture while resisting the "voluntary means optional" critique would address the largest share of the substantive feedback in this docket. Some tensions — particularly the deep disagreement between commenters who trust statistical sampling and risk-limiting audits and those who distrust all machine-mediated counting — cannot be resolved by drafting choices, because the commenters themselves do not agree. But the EAC can acknowledge these methodological disputes explicitly, make clear which positions align with established election science, and invite continued dialogue on the contested questions while acting on the areas of broad expert convergence.
+
+---
+
+## Summary Table
 
 | Comment ID | Submitter | Contact / Affiliation | One-Line Summary |
 |---|---|---|---|
@@ -83,7 +310,7 @@ Docket EAC-2026-0067 — Public Comment Period (closed late April / early May 20
 
 ---
 
-## 2. Individual Comment Entries
+## Individual Comment Entries
 
 ### EAC-2026-0067-0002 — Ronald Rivest
 
@@ -841,200 +1068,3 @@ This commenter appreciates the work but is concerned that the word "voluntary" w
 
 ---
 
-## 3. Topical Synthesis
-
-The 67 public submissions divide into three rough camps. The first is election-administration professionals and good-government organizations who broadly support the draft and want it sharpened — The Elections Group, Verified Voting, Honest Elections Project, Center for Election Confidence, Rivest, and McBurnett. The second is auditors and accountants who judge the draft against professional auditing norms — Raisch, Vaeth, Schaeper, Chapman, Kresse, and MFEI. The third is a large bloc of individual citizens, many submitting brief, nearly identical statements demanding "third-party" or "independent" audits without elaboration. A smaller set is skeptical of the whole enterprise or focused on specific grievances (voter rolls, machine distrust, HAVA compliance). These camps share more than they disagree on — all endorse independence, transparency, and record access — but they differ significantly in how they frame the problem and what solutions they trust.
-
-### Broad Areas of Agreement
-
-Despite the enormous diversity in sophistication, ideology, and background among the 67 commenters, several themes emerge with near-universal agreement.
-
-**Transparency is non-negotiable.** Every commenter who expressed a view on the matter — from the most technically sophisticated (Verified Voting, Citizens Oversight, McBurnett) to the briefest lay citizen — agrees that audit processes and results must be publicly accessible and understandable. Public observation of audits is widely supported. Plain-language communication is specifically requested by multiple commenters (0040, 0049, 0059, 0068).
-
-**Audits must be timely.** There is strong convergence — explicitly from The Elections Group (0059), the Center for Election Confidence (0068), Droz (0063), and implicitly from many others — that tabulation audits intended to validate election results must be completed before certification. The draft's Efficacy standard addresses this but several commenters argue it needs to be stated more forcefully.
-
-**Independence matters.** While commenters disagree significantly on what independence means and how to achieve it, the desirability of some meaningful degree of independence from the audited entity is uncontested across the comment record. This is the single most frequently raised topic in the docket.
-
-**Full access to election artifacts is necessary.** MFEI (0044), Vaeth (0047), Koury (0038), Schaeper (0050), and others specifically argue that auditors must have access to all election records, from paper ballots through cast vote records and chain-of-custody documentation. Audits without access to underlying records are "audits in name only" (MFEI).
-
-**Public communication requires improvement.** Multiple commenters note that election audits are poorly understood by the public and that even technically sound audits will fail to build confidence if they are not explained in accessible language. The Elections Group (0059) cites research showing process-focused communication builds more confidence than results-focused communication.
-
----
-
-### Major Topics with Substantive Engagement
-
-#### Independence of Auditors
-
-This is overwhelmingly the dominant topic, accounting for approximately 35–40 of the 67 submissions. The debate, however, contains important nuances obscured by the volume of brief, similar comments.
-
-**The dominant position: true independence requires institutional separation.** The large bloc of brief comments (0008–0036 range) argues simply that election officials should not audit themselves and that third parties must conduct audits. This group includes ordinary citizens, election integrity activists, and professionals from other fields who see election self-auditing as obviously anomalous compared to standards in other industries.
-
-The more sophisticated structural proposals (Raisch 0056, MFEI 0044, Vaeth 0047, Koury 0038, Buck 0051, Schaeper 0050, Chapman 0067) converge on an independent audit committee model: a standing body separate from the election administration apparatus, with bipartisan or nonpartisan membership including auditing professionals, statisticians, and representatives from across government, authorized in statute and reporting to a legislative body rather than the chief election official. The key insight shared by Raisch (0056) and Buck (0051) is that the draft's independence standard focuses on the people doing the audit work but leaves the chief election official in control of every rule governing the audit — which is the deeper structural problem.
-
-**The practitioner position: elections are uniquely complex.** Professional election organizations (Verified Voting 0058, The Elections Group 0059, and implicitly the draft itself) acknowledge independence as important but note practical constraints: election officials must be involved because of statutory custody requirements, specialized domain knowledge, and the complexity of election law that varies enormously across jurisdictions. These commenters argue for mitigating conflicts through transparency, verifiable documentation, balanced oversight bodies, and structural safeguards rather than complete removal of election officials from the audit process.
-
-**Paul Burke's nuanced middle ground (0066):** Burke argues that both internal and external audits have value — as in financial auditing, where both types exist — and that the appropriate standard is not to mandate external audits but to require audit reports to be transparent about whether they were conducted by election officials or others, allowing public assessment of independence.
-
-**The tension:** The brief-comment bloc's demand for third-party independence sits in productive tension with the practitioner acknowledgment that complete removal of election officials is often not feasible. The EAC must decide how prescriptive to be about what "degree of independence" in the current draft language actually requires in practice.
-
----
-
-#### Scope Beyond Tabulation Audits
-
-Multiple sophisticated commenters argue the draft is insufficiently broad in scope.
-
-**Compliance and procedural audits should cover the full year, not just election day.** Buck (0051) proposes explicitly extending compliance audits to year-round voter registration, list maintenance, and related processes. Befort (0043) provides the most comprehensive list of year-round election processes deserving independent audit: voter registration processing, list maintenance, cybersecurity posture, VBM processing, records requests, and more.
-
-**HAVA financial audits.** MFEI (0044), Vaeth (0047), and Schaeper (0050) argue strongly that states receiving HAVA grant funding should be subject to substantive financial and compliance audits under GAGAS/Yellow Book, not just narrow financial compliance audits. They argue the current EAC/OIG HAVA audits focus narrowly on financial compliance while ignoring substantive HAVA mandates on voter access, election technology security, and voter roll maintenance.
-
-**Voter rolls and eligibility.** AFL (0053), Kufert (0041), Cruz's second submission (0070), and others argue the draft does not adequately address auditing of voter roll accuracy, citizenship verification, and list maintenance. AFL provides the most legally and factually developed argument, grounded in HAVA's list maintenance requirements and citing documented state-level data on non-citizen registrations.
-
-**Ballot drop boxes and signature verification.** AFL (0053) alone argues for specific audit guidance on these two areas. No other commenter explicitly joins this request, though the broader independence and access-to-artifacts community would likely support these as elements of a comprehensive procedural audit.
-
-**L&A testing and pre-election audits.** Citizens Oversight (0062) and Droz (0063) explicitly argue that logic and accuracy testing should be within the scope of these standards, and that the draft's restriction to post-election audit types is too narrow.
-
-**Ballot image audits.** Burke (0066) and Citizens Oversight (0062) both note that ballot image audits (re-analyzing verified ballot images without rescanning) are used statewide in Georgia, Maryland, and South Carolina and should be defined and recognized in the audit type table. Verified Voting (0058) implicitly endorses this by noting that the draft's tabulation audit description conflates manual examination (best practice) with machine rescanning.
-
----
-
-#### Risk-Limiting Audits Specifically
-
-RLAs are referenced by several commenters in distinct ways.
-
-**Expert support:** Rivest (0002), McBurnett (0069), Verified Voting (0058), The Elections Group (0059), and Bystroff (0039) all treat RLAs as a recognized and generally superior audit methodology. McBurnett's comment is the most detailed, specifically praising Colorado's RLA implementation with public dice rolls and ballot manifests and recommending those practices as models for the document to cite.
-
-**Expert critique of gaps in the draft:** Rivest (0002) specifically notes that the draft fails to explain statistical audits to non-technical audiences, does not address the variable workload of statistical audits, and provides no guidance on contest selection or random sample selection methods. These are constructive criticisms intended to improve the draft's treatment of RLAs, not to question their validity.
-
-**Lay opposition:** Aleshire (0013) explicitly criticizes RLAs as "statistically irrelevant and in fact misleading," a position unsupported by the election science community but reflecting a real subset of public skepticism. No other commenter explicitly endorses Aleshire's critique of RLAs, and the professional/technical commenters who address the topic disagree with it.
-
-**Bystroff's nuanced point (0039):** Bystroff argues that RLAs are actually better than many audit approaches precisely because they require a statistical confidence threshold rather than accepting explanations for discrepancies — but the draft does not make this comparison explicit, leaving the RLA standard undefined in relation to discrepancy resolution.
-
----
-
-#### Credentialing and Competence Standards
-
-A distinct cluster of commenters urges formal credentialing of election auditors.
-
-**For credentialing:** Kresse (0065), with the most developed professional argument, draws on his credentials (CPA/CFF, CFE, former election commissioner) to argue that public confidence depends on knowing that auditors have been vetted through education, testing, and a disciplinary mechanism. Chapman (0067) recommends auditors be credentialed for the type of audit they conduct. Cruz (0049) points to the Institute of Election Auditors' Certified Election Auditor (CEA) credential as a practical existing resource. Lawson (0006) proposes creating a new auditor profession. The Elections Group (0059) flags credentialing as a topic that surfaced in their practitioner workshops.
-
-**Against mandating specific credentials:** The draft itself and Verified Voting (0058) and Honest Elections Project (0055) take a flexible, team-based approach to competence — rather than requiring individual credentials, the audit team collectively must possess the necessary knowledge. This approach respects the reality that election law expertise and audit methodology expertise are rarely combined in credentialed professionals.
-
-**Tension:** Formal credentialing programs take years to build, whereas the EAC's standards need to be actionable now. The intermediate position — pointing jurisdictions to existing resources like IEA and Verified Voting's audit team, as Cruz (0049) proposes — may be the most practical near-term approach.
-
----
-
-#### Transparency and Public Communication
-
-Beyond the near-universal agreement that transparency matters, several commenters engage substantively with what transparency requires in practice.
-
-**The Elections Group (0059)** provides research-backed guidance: their 2024 academic study found that process-focused communication increases voter confidence more than results-focused communication. They offer specific practical implementation advice from their workshops.
-
-**Citizens Oversight / Lutz (0062)** proposes the most detailed transparency framework: Public Transparency Protocols (PTPs) — scripted, in-process public verification sequences at critical steps including randomization, batch verification, testing procedures, and result comparison. This is a significant conceptual contribution, shifting transparency from documentation after the fact to real-time verifiable action.
-
-**McBurnett (0069)** makes a related point about verifiability: the published Colorado model (ballot manifests with hashes, public dice rolling, open-source PRNG) creates a transparency standard that allows any member of the public to independently reproduce the ballot selection. This is transparency as independent verifiability, not just access to information.
-
-**Standardized audit reports:** Burke (0066), McBurnett (0069), and Citizens Oversight (0062) all converge on the same twelve-element audit report standard (dates, topics, discrepancies and explanations, extent of coverage, audit limitations, methods, auditor appointment, contractor selection, team size/composition, legal references, links to election results, links to supporting materials). This convergence across independent commenters suggests a ripe area for the EAC to act on.
-
-**The "low attendance" issue:** MTX Group (0057) objects to the draft's note that "attendance is often low even when observation is offered," arguing it undermines the case for public observation. The Droz (0063) comment goes further, arguing "public observation must not interfere" is institutional language used to justify excluding legitimate observers, and recommends defining "meaningful observation" with explicit rights to line of sight, documentation, and real-time challenge logging.
-
----
-
-#### Partisan vs. Nonpartisan Concerns
-
-The docket contains a politically distinct cluster of commenters who frame election integrity concerns through a partisan lens (primarily concerns about Democratic-leaning state officials in Michigan and Texas, concerns about voter rolls and non-citizen registration, etc.), and a cluster of election administration professionals who explicitly adopt a nonpartisan or bipartisan framing.
-
-**The partisan-oriented cluster** (MFEI 0044, Vaeth 0047, AFL 0053, Kufert 0041, Cruz 0070, Warren 0027) tends to frame problems in terms of specific alleged state-level misconduct, non-citizen voters, voter roll manipulation, and HAVA non-compliance in states with Democratic secretaries of state. These commenters support independent audits and GAGAS financial audits partly as mechanisms to hold those officials accountable.
-
-**The election administration community** (Verified Voting 0058, The Elections Group 0059, McBurnett 0069, Burke 0066, Chapman 0067, Honest Elections Project 0055) consistently frames the case for audits in terms of building and maintaining public confidence broadly, without naming specific parties or officials. Their arguments are methodologically grounded and applicable regardless of which party controls a given election administration.
-
-**The tension:** The EAC must produce standards that will be credible to both partisan-skeptic and partisan-neutral audiences. Standards that appear designed to address partisan concerns about specific state practices risk losing the professional election community's endorsement. Standards that ignore the politically motivated audience lose the opportunity to build confidence among a significant fraction of the voting public that has low trust in elections.
-
-**A notable convergence:** The structural demand for independent audit committees, which is the MFEI/Raisch/Vaeth coalition's central proposal, is broadly consistent with what Verified Voting, The Elections Group, and McBurnett's comment support in principle — they all endorse audit governance that reduces the chief election official's unilateral control of audit design. The coalitions differ in motivation but converge on similar structural fixes.
-
-**Buck's correction (0051):** The draft's table describing the "Non-Partisan" audit staffing model says party affiliations are not disclosed, but implies this equals neutrality. Buck's correction — changing the description to note that party affiliations are simply not disclosed, making no claim about neutrality — is a technically correct and politically important fix that several commenters would likely endorse.
-
----
-
-#### Private Funding
-
-The draft and the large majority of commenters assume public funding exclusively; this is treated as a safeguard for independence. Anonymous (0042) is a notable dissent, explicitly raising the scenario where public funding is insufficient and asking whether private funding with adequate safeguards might be permissible as a fallback. No other commenter joins this position, and the dominant professional view (Raisch 0056, Vaeth 0047, MFEI 0044) treats independence from private interests as non-negotiable alongside independence from political actors. The EAC must decide whether to explicitly bar private funding or to allow it under defined conditions — either choice is a substantive policy call that the draft currently sidesteps.
-
----
-
-#### Public vs. Expert Audience
-
-A recurring stylistic tension runs through the docket: the document's intended audience. The Center for Election Confidence (0068) and Anonymous (0040) want language and sample text pitched to the average voter — arguing that a misunderstood audit can do more harm than no audit at all, and that phrases like "random sampling as required by statute" are opaque to non-lawyers. On the other side, McBurnett (0069), Rivest (0002), Citizens Oversight (0062), and Droz (0063) want more technical rigor: explicit RLA guidance, cryptographic chain-of-custody, statistical sampling protocol standards, and peer-reviewed citations. The Elections Group's 2024 research suggests these need not be entirely in conflict — process-focused, plain-language communication measurably raised voter confidence — but the EAC faces a genuine document-architecture challenge in serving both audiences. The companion-document model Citizens Oversight proposes (core principles in the main document, technical detail in companion documents) may offer the best structural path.
-
----
-
-#### Timing (Pre- vs. Post-Certification)
-
-There is clear convergence that tabulation audits meant to validate outcomes must be completed before certification.
-
-**Strong pre-certification advocates:** The Elections Group (0059) is the most emphatic — they state explicitly that "audits intended to validate the accuracy of the results should take place before certification" and encourage officials to advocate for statutory changes where state law requires post-certification audits. Bystroff (0039) makes the same point through the lens of discrepancy resolution — a post-certification audit that finds a discrepancy cannot meaningfully "confirm correct outcomes." The Center for Election Confidence (0068) calls pre-certification completion "a key voter confidence metric." Droz (0063) recommends Timeliness as a separate standard.
-
-**The draft's existing treatment:** The Efficacy standard and accompanying table already specify that tabulation audits intended to confirm correct outcomes should be completed before certifying election outcomes, and that other audit types have different appropriate timings. The commenters are largely pushing on a partially open door — but they want the language to be stronger and more explicit, and they want state laws that require post-certification audits to be identified as problematic.
-
----
-
-#### Discrepancy Resolution
-
-Bystroff (0039) and Droz (0063) both identify the absence of any standard for what happens when an audit finds a discrepancy as a critical gap.
-
-Bystroff's argument is the most legally developed: he cites *Johnson v. Martins* to demonstrate that under current practice, an administering authority can close a discrepancy by offering an explanation without documentary corroboration, and without independent review — effectively nullifying the audit's escalation mechanism. He argues the EAC should require evidence, not explanation, to close discrepancies; place the burden of proof on the administering authority; and require independent (not self-assessed) determination of whether a discrepancy has been resolved.
-
-Droz adds a related but distinct point about negative ballot corrections reported to Edison — large adjustments to vote totals submitted without documentation — which he frames as a Negative Ballot Transparency standard.
-
-No commenter explicitly disagrees with the need for discrepancy handling guidance, but the topic receives little attention beyond these two commenters among the general comment population. This may reflect that most lay commenters focus on the audit process itself rather than on the post-discrepancy procedural question.
-
----
-
-#### Other Significant Topics
-
-**Voluntary vs. mandatory framing:** Multiple commenters (0063 Droz, 0072, and implicitly many others) express concern that the "voluntary" framing will cause states to ignore the standards. Droz recommends shifting the language to "normative and aspirational." Anonymous (0072) proposes renaming the document. Enhanced Voting (0064) questions the utility of EAC-specific standards at all, suggesting an anchor to existing GAO/INTOSAI frameworks. The Center for Election Confidence (0068) recommends retitling to "Guide" rather than "Standards" for the opposite reason — to avoid implying the EAC has final authority.
-
-**HAVA financial accountability:** MFEI, Vaeth, and Schaeper all argue that HAVA grant compliance should have real teeth — states should lose funding if they are noncompliant with HAVA mandates, and EAC/OIG financial audits should assess substantive HAVA compliance, not just financial bookkeeping.
-
-**Machine-readable data and NIST collaboration:** McBurnett (0069) and Citizens Oversight (0062) both call for machine-readable audit record formats and recommend NIST involvement in developing standardized formats. This is a forward-looking, operationalizable recommendation that does not require taking sides on any contested policy question.
-
-**Existing literature and standards:** McBurnett (0069) specifically recommends citing the Appel/Stark Georgetown Law Technology Review article and the *Principles and Best Practices for Post-Election Tabulation Audits* document. Verified Voting (0058) also implicitly endorses this literature. These citations would ground the EAC document in existing peer-reviewed and expert-endorsed work.
-
-**The role of the document itself:** Citizens Oversight (0062) and Enhanced Voting (0064) both argue the document should be clearer about what kind of document it is — a principles document (Citizens Oversight) or a guide to existing standards (Enhanced Voting). Center for Election Confidence (0068) argues "Standards" implies too much authority; Droz (0063) argues "voluntary" implies too little aspiration.
-
----
-
-## 4. Conclusion
-
-### What This Body of Comment Tells the EAC
-
-The 67 submissions represent a broad and politically diverse public that is deeply engaged with election audit policy. They include credentialed professionals (CPAs, federal auditors, computer scientists, attorneys, statisticians, former election commissioners), organized advocacy groups across the political spectrum (AFL, MFEI, Honest Elections Project, Verified Voting, The Elections Group, Citizens Oversight), and a large population of ordinary citizens who care about election integrity.
-
-The comment record reveals that the EAC's draft framework — organized around Objective, Professional, Effective, Secure, and Accountable topics — is broadly viewed as a good start. Substantive criticism of the framework's architecture is minimal. Most commenters want to see it strengthened, not replaced.
-
-### The Clearest Mandates from Commenters
-
-**1. Strengthen independence governance.** The most consistent substantive recommendation across professional, advocacy, and citizen commenters is that the current draft's independence standard addresses individual auditors but leaves the chief election official in control of audit design and rules. An independent, multi-stakeholder audit committee model — with bipartisan or nonpartisan composition, statutory authorization, and legislative rather than executive accountability — is proposed by Raisch (0056), MFEI (0044), Vaeth (0047), Koury (0038), Buck (0051), Schaeper (0050), and Chapman (0067). Variants of this are supported by even some more cautious commenters who want the language on independence to be more specific.
-
-**2. Require standardized audit reports.** Burke (0066), McBurnett (0069), and Citizens Oversight (0062) converge independently on nearly identical twelve-element audit report standards. The convergence is striking and represents a clearly implementable, politically neutral recommendation that could directly enable future EAVS data collection and cross-jurisdictional comparison.
-
-**3. Mandate pre-certification timing for tabulation audits.** The draft already contains this principle in the Efficacy section, but commenters including The Elections Group, Center for Election Confidence, and Bystroff want it stated more forcefully and supported by encouragement to reform state laws that require post-certification timing.
-
-**4. Address discrepancy resolution.** Bystroff's (0039) identification of this gap is unique in its legal grounding but reflects a fundamental logic: an audit that finds a discrepancy and allows the audited party to explain it away without independent review or documentary evidence has not functioned as an audit. Adding standards for discrepancy escalation and resolution would significantly strengthen the document.
-
-**5. Add ballot image audits to the audit type table.** Burke (0066) and Citizens Oversight (0062) note that ballot image audits — re-analyzing digital ballot images without rescanning — are already used statewide in Georgia, Maryland, and South Carolina but are not defined in the draft. The Automated Independent Ballot Audit defined in the draft is a different process (rescanning through a separate tabulation system). The gap should be filled.
-
-**6. Point jurisdictions to existing credentialed resources.** Cruz (0049) provides the most actionable near-term recommendation on the competence/credentialing gap: rather than building a new credentialing system, the EAC should point jurisdictions to the Institute of Election Auditors' CEA program, Verified Voting's audit team, and state-level professional models. This addresses a real implementation gap without requiring the EAC to build a credentialing apparatus.
-
-### The Hardest Tradeoffs to Resolve
-
-**Independence vs. operational reality.** The tension between the demand for genuine structural independence and the practical reality that election officials must be involved (for statutory custody reasons, domain expertise, and resource constraints) is the central unresolved tension in this docket. The EAC cannot simply mandate independent audit committees without acknowledging that most states lack the statutory framework, budget, and audit expertise to implement them. At the same time, a standard that allows unlimited self-auditing will not build the public confidence that justifies the entire enterprise.
-
-**Partisan concern vs. methodological integrity.** The substantial bloc of comments motivated by specific partisan concerns about voter roll manipulation, non-citizen voting, and Democratic-leaning state official misconduct cannot be ignored — they represent a real constituency — but their proposals (citizenship verification audits, voter roll reconstruction, allegations of algorithmic voter data manipulation) range from the reasonable (some form of eligibility audit guidance) to the unsupported by evidence. The EAC must address the credible elements of these concerns — eligibility audit guidance, HAVA financial accountability — without lending credibility to unverified conspiracy theories or creating audit requirements designed to serve partisan objectives rather than accurate elections.
-
-**Normative aspirations vs. flexibility.** Several commenters argue the document is too permissive and flexible, while others (Honest Elections Project, Center for Election Confidence) explicitly praise its flexible, adaptable approach. The EAC must determine whether flexibility is a design feature (it respects the enormous diversity of jurisdictions) or a design flaw (it allows any level of quality to call itself compliant). Droz's (0063) proposal to rename "Flexibility" as "Scalability of Verifiability" is an interesting attempt to preserve the concept while shifting its connotation from permission-to-do-less toward accommodation-of-different-capacities.
-
-**Voluntary authority vs. accountability.** Several commenters note the obvious: voluntary standards that carry no consequence for non-adoption may simply be ignored. The EAC's leverage — HAVA funding — is raised repeatedly. The EAC must decide whether to link audit compliance to funding eligibility (as Schaeper 0050, MFEI 0044, and Vaeth 0047 urge) and if so, how to define compliance given the flexibility the draft otherwise endorses.
-
-**Technical detail vs. accessibility.** The draft is criticized for being too long by some (Lawson 0006) and too vague by others (Droz 0063, Citizens Oversight 0062, McBurnett 0069). The EAC faces a document-architecture challenge: how to provide sufficient technical guidance for sophisticated implementers (who need specifics on random sampling, ballot image audits, discrepancy resolution, cryptographic chain-of-custody) while remaining accessible to small jurisdictions with limited staff, resources, and expertise. The companion-document model suggested by Citizens Oversight (0062) — core principles in the main document, technical standards in separate companion documents — may offer the best structural path.
-
-A final version that tightens the independence and discrepancy-resolution language, adds clearer guidance on sampling and on what happens when numbers do not match, standardizes audit reports, and keeps its plain-language flexible posture while resisting the "voluntary means optional" critique would address the largest share of the substantive feedback in this docket. Some tensions — particularly the deep disagreement between commenters who trust statistical sampling and risk-limiting audits and those who distrust all machine-mediated counting — cannot be resolved by drafting choices, because the commenters themselves do not agree. But the EAC can acknowledge these methodological disputes explicitly, make clear which positions align with established election science, and invite continued dialogue on the contested questions while acting on the areas of broad expert convergence.
