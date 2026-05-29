@@ -3,29 +3,30 @@
 
 @import "{{ site.theme }}";
 
-/* Widen the layout */
-.wrapper {
-  width: min(1200px, 98vw);
+/* ── Hamburger button (hidden on desktop) ── */
+#toc-toggle {
+  display: none;
 }
 
-section {
-  width: calc(100% - 310px);
-  max-width: 860px;
+/* ── Maintained-by line ── */
+.maintained-by {
+  font-size: 0.8rem;
+  margin: 0.3rem 0 0.6rem;
 }
 
-/* Sidebar TOC */
+/* ── Sidebar TOC ── */
 #page-toc {
-  margin-top: 1.5rem;
+  margin-top: 1.2rem;
   font-size: 0.78rem;
   line-height: 1.5;
   border-top: 1px solid #ddd;
-  padding-top: 0.8rem;
+  padding-top: 0.7rem;
 }
 
 #page-toc > strong {
   display: block;
   margin-bottom: 0.4rem;
-  font-size: 0.8rem;
+  font-size: 0.78rem;
   text-transform: uppercase;
   letter-spacing: 0.04em;
   color: #555;
@@ -38,17 +39,12 @@ section {
 }
 
 #page-toc li {
-  margin: 0.15rem 0;
+  margin: 0.18rem 0;
 }
 
 #page-toc li.h3 {
   padding-left: 0.9rem;
   font-size: 0.73rem;
-}
-
-#page-toc li.h4 {
-  padding-left: 1.6rem;
-  font-size: 0.70rem;
 }
 
 #page-toc a {
@@ -61,11 +57,93 @@ section {
   text-decoration: underline;
 }
 
-/* Make header scrollable if TOC is long */
+/* ── Desktop layout (≥ 960 px): widen wrapper and section ── */
 @media print, screen and (min-width: 960px) {
+  .wrapper {
+    width: min(1200px, 98vw);
+  }
+
+  section {
+    width: calc(100% - 310px);
+    max-width: 860px;
+    float: right;
+  }
+
   header {
+    width: 270px;
+    position: fixed;
+    top: 0;
+    left: auto;
     max-height: 100vh;
     overflow-y: auto;
     padding-bottom: 2rem;
+    /* suppress the theme's fixed footer overlap */
+  }
+
+  /* Theme places footer as a second fixed element — suppress it */
+  footer {
+    display: none;
+  }
+}
+
+/* ── Tablet / mobile (< 960 px) ── */
+@media screen and (max-width: 959px) {
+  /* Full-width content */
+  .wrapper {
+    width: 100%;
+    padding: 0 1rem;
+  }
+
+  section {
+    float: none;
+    width: 100%;
+    margin-left: 0;
+    padding: 1rem 0;
+  }
+
+  /* Sidebar hidden by default; shown when toggled */
+  header {
+    position: fixed;
+    top: 0;
+    left: -290px;
+    width: 270px;
+    height: 100%;
+    overflow-y: auto;
+    background: #fff;
+    border-right: 1px solid #ddd;
+    box-shadow: none;
+    transition: left 0.25s ease, box-shadow 0.25s ease;
+    z-index: 200;
+    padding: 1rem;
+  }
+
+  header.sidebar-open {
+    left: 0;
+    box-shadow: 4px 0 12px rgba(0,0,0,0.15);
+  }
+
+  footer {
+    display: none;
+  }
+
+  /* Hamburger button */
+  #toc-toggle {
+    display: block;
+    position: fixed;
+    top: 0.6rem;
+    right: 0.8rem;
+    z-index: 300;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0.3rem 0.6rem;
+    font-size: 0.85rem;
+    cursor: pointer;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.12);
+  }
+
+  /* Nudge content down so it doesn't hide behind button */
+  section {
+    padding-top: 2.8rem;
   }
 }
