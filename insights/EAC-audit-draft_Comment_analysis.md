@@ -5,7 +5,7 @@
 Docket EAC-2026-0067 — Public Comment Period (closed April 27, 2026)
 71 docket entries; 67 public submissions analyzed. Four docket numbers (0007, 0009, 0017, 0024) correspond to withdrawn or non-public submissions not returned by the Regulations.gov API and are listed in their numeric positions below.
 
-**Analysis version/timestamp:** v0.9.4 — 2026-05-28T19:00Z (UTC)
+**Analysis version/timestamp:** v0.9.5 — 2026-05-28T19:20Z (UTC)
 
 **Draft standards:** [DOCX](../data/raw/eac_draft_audit_standards.docx) · [Markdown](../data/processed/eac_draft_audit_standards.md)
 
@@ -240,16 +240,16 @@ A final version that tightens the independence and discrepancy-resolution langua
 
 ## Summary Table
 
-| Comment ID | Submitter | Contact / Affiliation | One-Line Summary | Documents |
-|---|---|---|---|---|
+| Comment | Contact / Affiliation | One-Line Summary | Documents |
+|---|---|---|---|
 | [0002 (text)](../data/processed/comments/EAC-2026-0067-0002.md) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0002) | Ronald Rivest | Academic/researcher | Commends the draft but urges addition of statistical audit (RLA) discussion, variable work estimates, contest selection guidance, and random sampling methods. | — |
 | [0003 (text)](../data/processed/comments/EAC-2026-0067-0003.md) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0003) | Stephanie Singer | Election data analyst | Proposes adding an "Anomaly Audit" entry to the before/during/after table. | — |
 | [0004 (text)](../data/processed/comments/EAC-2026-0067-0004.md) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0004) | Michelle Burchill | Elections field professional | Supports broader audits and endorses outside organizations conducting honest evaluations; favors separate tabulation audits covering all ballots. | — |
 | [0005 (text)](../data/processed/comments/EAC-2026-0067-0005.md) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0005) | Anonymous (Civera) | Civera technology vendor | Urges statistical/forensics anomaly analysis of election results as a standard security practice nationwide. | — |
 | [0006 (text)](../data/processed/comments/EAC-2026-0067-0006.md) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0006) | Gregory Lawson | Citizen, general public | Suggests state/county audit committees of election officials, former officials, and members-at-large, plus out-of-state independent auditors; calls for a new auditor credentialing profession. | — |
-| 0007 | *(withdrawn/non-public)* | — | Withdrawn or non-public submission; not returned by Regulations.gov API. | — |
+| 0007 — *(withdrawn/non-public)* | — | Withdrawn or non-public submission; not returned by Regulations.gov API. | — |
 | [0008 (text)](../data/processed/comments/EAC-2026-0067-0008.md) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0008) | Julie Hall | Citizen, general public | Insists audits must be done by an independent third party or state auditor, not the Secretary of State. | — |
-| 0009 | *(withdrawn/non-public)* | — | Withdrawn or non-public submission; not returned by Regulations.gov API. | — |
+| 0009 — *(withdrawn/non-public)* | — | Withdrawn or non-public submission; not returned by Regulations.gov API. | — |
 | [0010 (text)](../data/processed/comments/EAC-2026-0067-0010.md) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0010) | Dave Cantera | Citizen, general public | States that auditing in any industry requires observation by a disinterested party. | — |
 | [0011 (text)](../data/processed/comments/EAC-2026-0067-0011.md) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0011) | Denise Flohr | Citizen, general public | Demands forensically independent audits; warns that self-auditing reflects poor national ethics. | — |
 | [0012 (text)](../data/processed/comments/EAC-2026-0067-0012.md) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0012) | Anonymous (Ohio Election Integrity Network) | Election integrity advocacy, Ohio | Strongly urges independent, secure, accurate, and honest audits for voter confidence. | — |
@@ -257,14 +257,14 @@ A final version that tightens the independence and discrepancy-resolution langua
 | [0014 (text)](../data/processed/comments/EAC-2026-0067-0014.md) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0014) | Jayne Hall | Citizen, general public | Audits should be done by a third party with no county election board or SOS affiliation. | — |
 | [0015 (text)](../data/processed/comments/EAC-2026-0067-0015.md) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0015) | Marilyn Roggenkamp | Citizen, general public | Requests independent auditors rather than SOS staff for transparency reasons. | — |
 | [0016 (text)](../data/processed/comments/EAC-2026-0067-0016.md) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0016) | Anonymous Anonymous | Citizen, general public | Requests independent, objective third-party audits as far removed from the work product as possible. | — |
-| 0017 | *(withdrawn/non-public)* | — | Withdrawn or non-public submission; not returned by Regulations.gov API. | — |
+| 0017 — *(withdrawn/non-public)* | — | Withdrawn or non-public submission; not returned by Regulations.gov API. | — |
 | [0018 (text)](../data/processed/comments/EAC-2026-0067-0018.md) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0018) | Christine Welborn | Citizen, general public | Stresses critical importance of independent auditors; objects to agencies auditing themselves. | — |
 | [0019 (text)](../data/processed/comments/EAC-2026-0067-0019.md) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0019) | Diane Vernesoni | Citizen, general public | Wants independent ballot audits with full reconciliation; no uncertified result should be accepted. | — |
 | [0020 (text)](../data/processed/comments/EAC-2026-0067-0020.md) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0020) | Gregory Lawson | Citizen, general public | Audits should be performed by parties independent of the county auditor, ideally two separate out-of-state parties. | — |
 | [0021 (text)](../data/processed/comments/EAC-2026-0067-0021.md) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0021) | Lori Wieber | Citizen, general public | Independence from election runners is a key requirement for trust and integrity. | — |
 | [0022 (text)](../data/processed/comments/EAC-2026-0067-0022.md) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0022) | Julie Adams | Citizen, general public | All audits must be done independently by credible audit firms or state auditors, not by election employees or vendors. | — |
 | [0023 (text)](../data/processed/comments/EAC-2026-0067-0023.md) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0023) | Anonymous Anonymous | Citizen, general public | Urges mandatory independent audits; objects to election vendor being the auditor of its own reported totals. | — |
-| 0024 | *(withdrawn/non-public)* | — | Withdrawn or non-public submission; not returned by Regulations.gov API. | — |
+| 0024 — *(withdrawn/non-public)* | — | Withdrawn or non-public submission; not returned by Regulations.gov API. | — |
 | [0025 (text)](../data/processed/comments/EAC-2026-0067-0025.md) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0025) | Jody Hall | Citizen, general public | Strongly urges all audits be conducted by a certified third party. | — |
 | [0026 (text)](../data/processed/comments/EAC-2026-0067-0026.md) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0026) | Sharla Blakely | Citizen, general public | Insists all audits must be conducted by a third party. | — |
 | [0027 (text)](../data/processed/comments/EAC-2026-0067-0027.md) [[↗]](https://www.regulations.gov/comment/EAC-2026-0067-0027) | Cheryl Warren | Citizen, Texas | Calls for third-party audits; describes personal FOIA experience with Texas SOS data discrepancy. | — |
