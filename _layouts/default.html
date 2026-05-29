@@ -39,17 +39,15 @@
 
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
     <script>
-    // Build sidebar TOC from headings, stopping before "Individual Comment Entries"
+    // Build sidebar TOC — h2 and h3 only, stop before "Individual Comment Entries"
     (function () {
       var list = document.getElementById('toc-list');
       if (!list) return;
       var headings = document.querySelectorAll('section h2, section h3');
       var stop = false;
       headings.forEach(function (h) {
-        if (stop) return;
-        if (!h.id) return;
-        var text = h.textContent.trim();
-        if (h.tagName === 'H2' && /individual comment entries/i.test(text)) {
+        if (stop || !h.id) return;
+        if (h.tagName === 'H2' && /individual comment entries/i.test(h.textContent)) {
           stop = true;
           return;
         }
@@ -57,7 +55,7 @@
         li.className = h.tagName.toLowerCase();
         var a = document.createElement('a');
         a.href = '#' + h.id;
-        a.textContent = text;
+        a.textContent = h.textContent.trim();
         li.appendChild(a);
         list.appendChild(li);
       });
@@ -65,20 +63,38 @@
 
     // Hamburger toggle
     (function () {
-      var btn = document.getElementById('toc-toggle');
+      var btn    = document.getElementById('toc-toggle');
       var header = document.getElementById('site-header');
       if (!btn || !header) return;
+
+      function open() {
+        header.classList.add('sidebar-open');
+        document.body.classList.add('sidebar-open');
+        btn.setAttribute('aria-expanded', 'true');
+      }
+      function close() {
+        header.classList.remove('sidebar-open');
+        document.body.classList.remove('sidebar-open');
+        btn.setAttribute('aria-expanded', 'false');
+      }
+
       btn.addEventListener('click', function () {
-        var open = header.classList.toggle('sidebar-open');
-        btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+        header.classList.contains('sidebar-open') ? close() : open();
       });
-      // Close sidebar when a TOC link is followed on small screens
+
+      // Close when tapping overlay (the ::before pseudo-element covers the rest)
+      document.body.addEventListener('click', function (e) {
+        if (header.classList.contains('sidebar-open') &&
+            !header.contains(e.target) &&
+            e.target !== btn) {
+          close();
+        }
+      });
+
+      // Close when a TOC link is tapped on mobile
       document.querySelectorAll('#toc-list a').forEach(function (a) {
         a.addEventListener('click', function () {
-          if (window.innerWidth < 960) {
-            header.classList.remove('sidebar-open');
-            btn.setAttribute('aria-expanded', 'false');
-          }
+          if (window.innerWidth <= 767) close();
         });
       });
     })();
