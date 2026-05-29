@@ -9,7 +9,11 @@
   </head>
   <body>
 
-    <button id="toc-toggle" aria-label="Table of contents" aria-expanded="false">&#9776; Contents</button>
+    <!-- Mobile-only sticky bar — hidden on desktop via CSS -->
+    <div id="mobile-bar">
+      <span id="mobile-title"><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></span>
+      <button id="toc-toggle" aria-label="Table of contents" aria-expanded="false">&#9776; Contents</button>
+    </div>
 
     <div class="wrapper">
       <header id="site-header">
@@ -39,7 +43,7 @@
 
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
     <script>
-    // Build sidebar TOC — h2 and h3 only, stop before "Individual Comment Entries"
+    // Build sidebar TOC — h2/h3 only, stop before "Individual Comment Entries"
     (function () {
       var list = document.getElementById('toc-list');
       if (!list) return;
@@ -48,8 +52,7 @@
       headings.forEach(function (h) {
         if (stop || !h.id) return;
         if (h.tagName === 'H2' && /individual comment entries/i.test(h.textContent)) {
-          stop = true;
-          return;
+          stop = true; return;
         }
         var li = document.createElement('li');
         li.className = h.tagName.toLowerCase();
@@ -61,7 +64,7 @@
       });
     })();
 
-    // Hamburger toggle
+    // Hamburger toggle — no position:fixed, sidebar expands inline on mobile
     (function () {
       var btn    = document.getElementById('toc-toggle');
       var header = document.getElementById('site-header');
@@ -69,32 +72,23 @@
 
       function open() {
         header.classList.add('sidebar-open');
-        document.body.classList.add('sidebar-open');
         btn.setAttribute('aria-expanded', 'true');
+        btn.textContent = '✕ Close';
       }
       function close() {
         header.classList.remove('sidebar-open');
-        document.body.classList.remove('sidebar-open');
         btn.setAttribute('aria-expanded', 'false');
+        btn.textContent = '☰ Contents';
       }
 
       btn.addEventListener('click', function () {
         header.classList.contains('sidebar-open') ? close() : open();
       });
 
-      // Close when tapping overlay (the ::before pseudo-element covers the rest)
-      document.body.addEventListener('click', function (e) {
-        if (header.classList.contains('sidebar-open') &&
-            !header.contains(e.target) &&
-            e.target !== btn) {
-          close();
-        }
-      });
-
-      // Close when a TOC link is tapped on mobile
+      // Close when a TOC link is tapped
       document.querySelectorAll('#toc-list a').forEach(function (a) {
         a.addEventListener('click', function () {
-          if (window.innerWidth <= 767) close();
+          if (window.innerWidth < 900) close();
         });
       });
     })();

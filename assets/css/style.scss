@@ -2,10 +2,13 @@
 ---
 
 /* ============================================================
-   Standalone stylesheet — no theme import, no cascade fights.
+   Standalone stylesheet — no theme import.
    ============================================================ */
 
 *, *::before, *::after { box-sizing: border-box; }
+
+/* ── Prevent horizontal document overflow ── */
+html { overflow-x: hidden; }
 
 /* ── Base typography ── */
 body {
@@ -76,13 +79,16 @@ th { background: #f6f8fa; font-weight: 600; }
 tr:nth-child(even) td { background: #fafbfc; }
 
 hr { border: none; border-top: 1px solid #e8e8e8; margin: 1.5rem 0; }
-
 img { max-width: 100%; height: auto; }
-
 strong { font-weight: 600; }
-em { font-style: italic; }
 
-/* ── Layout: desktop (≥ 900 px) — sidebar + content ── */
+/* ============================================================
+   Desktop layout (≥ 900 px)
+   ============================================================ */
+
+/* Mobile bar: hidden on desktop */
+#mobile-bar { display: none; }
+
 .wrapper {
   display: flex;
   align-items: flex-start;
@@ -91,6 +97,7 @@ em { font-style: italic; }
   width: 100%;
 }
 
+/* Sidebar */
 header {
   flex: 0 0 250px;
   width: 250px;
@@ -104,7 +111,6 @@ header {
   font-size: 0.82rem;
 }
 
-/* Sidebar typography overrides */
 header h1 {
   font-size: 1rem;
   margin: 0 0 0.4rem;
@@ -114,24 +120,13 @@ header h1 {
   color: #111;
 }
 header h1 a { color: #111; }
-header p {
-  font-size: 0.78rem;
-  color: #555;
-  margin: 0.25rem 0;
-  line-height: 1.45;
-}
-header ul {
-  list-style: none;
-  padding: 0;
-  margin: 0.4rem 0;
-}
+header p { font-size: 0.78rem; color: #555; margin: 0.25rem 0; line-height: 1.45; }
+header ul { list-style: none; padding: 0; margin: 0.4rem 0; }
 header ul li { margin: 0.15rem 0; }
 header ul li a { font-size: 0.78rem; }
 
-.view a { font-size: 0.78rem; }
 .maintained-by { font-size: 0.76rem; color: #666; margin: 0.15rem 0 0.5rem; }
 
-/* ── Sidebar TOC ── */
 #page-toc {
   margin-top: 1rem;
   padding-top: 0.65rem;
@@ -145,104 +140,92 @@ header ul li a { font-size: 0.78rem; }
   color: #888;
   margin-bottom: 0.35rem;
 }
-#page-toc ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
+#page-toc ul { list-style: none; padding: 0; margin: 0; }
 #page-toc li { margin: 0.15rem 0; }
 #page-toc li.h3 { padding-left: 0.8rem; }
 #page-toc a { color: #555; font-size: 0.76rem; text-decoration: none; }
 #page-toc a:hover { color: #111; text-decoration: underline; }
 
-/* ── Main content ── */
+/* Main content */
 section {
   flex: 1;
   min-width: 0;
   padding: 1.5rem 2.5rem 3rem;
   max-width: 900px;
   overflow-wrap: break-word;
+  word-break: break-word;
 }
 
-/* ── Footer: suppressed (moved into header) ── */
 footer { display: none; }
 
-/* ── Hamburger button: hidden on desktop ── */
-#toc-toggle { display: none; }
-
-
 /* ============================================================
-   Mobile / tablet  (< 900 px)
+   Mobile / tablet (< 900 px)
    ============================================================ */
 @media screen and (max-width: 899px) {
 
+  /* Sticky top bar with hamburger — NO position:fixed */
+  #mobile-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 0.8rem;
+    background: #f8f9fa;
+    border-bottom: 1px solid #e0e0e0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  #mobile-title {
+    font-size: 0.85rem;
+    font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  #mobile-title a { color: #222; text-decoration: none; }
+
+  #toc-toggle {
+    flex-shrink: 0;
+    background: #fff;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    padding: 0.3rem 0.65rem;
+    font-size: 0.82rem;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+
+  /* Wrapper: block stacking — header then section */
   .wrapper {
     display: block;
     width: 100%;
     max-width: 100%;
   }
 
-  section {
-    width: 100%;
-    max-width: 100%;
-    padding: 4rem 1rem 2rem;
-  }
-
-  /* Sidebar: off-canvas, slides in */
+  /* Sidebar: hidden by default, expands inline when open */
   header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: min(270px, 85vw);
-    transform: translateX(-105%);
-    transition: transform 0.25s ease, box-shadow 0.25s ease;
-    z-index: 200;
-    background: #fff;
-    border-right: 1px solid #ccc;
-    box-shadow: none;
-    overflow-y: auto;
+    display: none;
+    width: 100%;
+    height: auto;
+    position: static;
+    border-right: none;
+    border-bottom: 1px solid #e0e0e0;
     padding: 1rem;
-    /* reset sticky/flex behaviour */
+    background: #f8f9fa;
+    overflow-y: visible;
     flex: none;
   }
 
   header.sidebar-open {
-    transform: translateX(0);
-    box-shadow: 4px 0 20px rgba(0,0,0,0.18);
+    display: block;
   }
 
-  /* Dim overlay */
-  body::after {
-    content: '';
-    display: block;
-    position: fixed;
-    inset: 0;
-    background: rgba(0,0,0,0.4);
-    z-index: 150;
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity 0.25s ease;
-  }
-  body.sidebar-open::after {
-    opacity: 1;
-    pointer-events: auto;
-  }
-
-  /* Hamburger button */
-  #toc-toggle {
-    display: block;
-    position: fixed;
-    top: 0.5rem;
-    right: 0.6rem;
-    z-index: 300;
-    background: #fff;
-    border: 1px solid #bbb;
-    border-radius: 4px;
-    padding: 0.35rem 0.7rem;
-    font-size: 0.82rem;
-    cursor: pointer;
-    box-shadow: 0 1px 5px rgba(0,0,0,0.13);
-    line-height: 1.4;
+  /* Full-width content; tables scroll within section */
+  section {
+    width: 100%;
+    max-width: 100%;
+    padding: 1rem 0.9rem 2rem;
+    overflow-x: auto;
   }
 }
