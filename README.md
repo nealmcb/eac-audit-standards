@@ -24,8 +24,8 @@ Comprehensive analysis of all 67 public submissions on the EAC's draft *Voluntar
 
 | Document | Link |
 |---|---|
-| Draft audit standards (full text) | [Markdown](data/processed/eac_draft_audit_standards.md) · [DOCX](data/raw/eac_draft_audit_standards.docx) |
-| Comment analysis | [GitHub Pages](https://nealmcb.github.io/eac-audit-standards/insights/EAC-audit-draft_Comment_analysis) · [Markdown source](insights/EAC-audit-draft_Comment_analysis.md) |
+| Draft audit standards (full text) | [DOCX](data/raw/eac_draft_audit_standards.docx) · [Markdown](data/processed/eac_draft_audit_standards.md) |
+| Comment analysis | [GitHub Pages](https://nealmcb.github.io/eac-audit-standards/insights/EAC-audit-draft_Comment_analysis) |
 | All comments (structured) | [CSV](data/processed/comments.csv) · [JSONL](data/processed/comments.jsonl) |
 
 ---

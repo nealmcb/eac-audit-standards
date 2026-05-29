@@ -5,7 +5,9 @@
 Docket EAC-2026-0067 — Public Comment Period (closed April 27, 2026)
 71 docket entries; 67 public submissions analyzed. Four docket numbers (0007, 0009, 0017, 0024) correspond to withdrawn or non-public submissions not returned by the Regulations.gov API and are listed in their numeric positions below.
 
-**Analysis version/timestamp:** v0.7 — 2026-05-28T16:59Z (UTC)
+**Analysis version/timestamp:** v0.9 — 2026-05-28T17:30Z (UTC)
+
+**Draft standards:** [DOCX](../data/raw/eac_draft_audit_standards.docx) · [Markdown](../data/processed/eac_draft_audit_standards.md)
 
 ---
 
@@ -23,16 +25,6 @@ The U.S. Election Assistance Commission published a draft *Voluntary National St
 
 ---
 
-## Table of Contents
-
-1. [Executive Summary](#executive-summary)
-2. [Topical Synthesis](#topical-synthesis)
-3. [Findings and Recommendations](#findings-and-recommendations)
-4. [Summary Table](#summary-table)
-5. [Individual Comment Entries](#individual-comment-entries)
-
----
-
 ## Topical Synthesis
 
 The 67 public submissions divide into three rough camps. The first is election-administration professionals and good-government organizations who broadly support the draft and want it sharpened — The Elections Group, Verified Voting, Honest Elections Project, Center for Election Confidence, Rivest, and McBurnett. The second is auditors and accountants who judge the draft against professional auditing norms — Raisch, Vaeth, Schaeper, Chapman, Kresse, and MFEI. The third is a large bloc of individual citizens, many submitting brief, nearly identical statements demanding "third-party" or "independent" audits without elaboration. A smaller set is skeptical of the whole enterprise or focused on specific grievances (voter rolls, machine distrust, HAVA compliance). These camps share more than they disagree on — all endorse independence, transparency, and record access — but they differ significantly in how they frame the problem and what solutions they trust.
@@ -41,7 +33,7 @@ The 67 public submissions divide into three rough camps. The first is election-a
 
 Despite the enormous diversity in sophistication, ideology, and background among the 67 commenters, several themes emerge with near-universal agreement.
 
-**Transparency is non-negotiable.** Every commenter who expressed a view on the matter — from the most technically sophisticated (Verified Voting, Citizens Oversight, McBurnett) to the briefest lay citizen — agrees that audit processes and results must be publicly accessible and understandable. Public observation of audits is widely supported. Plain-language communication is specifically requested by multiple commenters (0040, 0049, 0059, 0068).
+**Transparency is non-negotiable.** Every commenter who expressed a view on the matter — from the most technically sophisticated (Verified Voting, Citizens Oversight, McBurnett) to the briefest lay citizen — agrees that audit processes and results must be publicly accessible and understandable. Public observation of audits is widely supported.
 
 **Audits must be timely.** There is strong agreement — explicitly from The Elections Group (0059), the Center for Election Confidence (0068), Droz (0063), and implicitly from many others — that tabulation audits intended to validate election results must be completed before certification. The draft's Efficacy standard addresses this but several commenters argue it needs to be stated more forcefully.
 
@@ -117,19 +109,25 @@ A distinct cluster of commenters urges formal credentialing of election auditors
 
 ---
 
-#### Transparency and Public Communication
+#### Transparency
 
 Beyond the near-universal agreement that transparency matters, several commenters engage substantively with what transparency requires in practice.
 
-**The Elections Group (0059)** provides research-backed guidance: their 2024 academic study found that process-focused communication increases voter confidence more than results-focused communication. They offer specific practical implementation advice from their workshops.
+**Citizens Oversight / Lutz (0062)** proposes the most detailed framework: Public Transparency Protocols (PTPs) — scripted, in-process public verification sequences at critical steps including randomization, batch verification, testing procedures, and result comparison. This is a significant conceptual contribution, shifting transparency from documentation after the fact to real-time verifiable action.
 
-**Citizens Oversight / Lutz (0062)** proposes the most detailed transparency framework: Public Transparency Protocols (PTPs) — scripted, in-process public verification sequences at critical steps including randomization, batch verification, testing procedures, and result comparison. This is a significant conceptual contribution, shifting transparency from documentation after the fact to real-time verifiable action.
-
-**McBurnett (0069)** makes a related point about verifiability: the published Colorado model (ballot manifests with hashes, public dice rolling, open-source PRNG) creates a transparency standard that allows any member of the public to independently reproduce the ballot selection. This is transparency as independent verifiability, not just access to information.
+**McBurnett (0069)** makes a related point about verifiability: the published Colorado model (ballot manifests with hashes, public dice rolling, open-source PRNG) creates a standard that allows any member of the public to independently reproduce the ballot selection. This is transparency as independent verifiability, not just access to information.
 
 **Standardized audit reports:** Burke (0066), McBurnett (0069), and Citizens Oversight (0062) all propose the same twelve-element audit report standard (dates, topics, discrepancies and explanations, extent of coverage, audit limitations, methods, auditor appointment, contractor selection, team size/composition, legal references, links to election results, links to supporting materials). This shared position suggests a ripe area for the EAC to act on.
 
 **The "low attendance" issue:** MTX Group (0057) objects to the draft's note that "attendance is often low even when observation is offered," arguing it undermines the case for public observation. The Droz (0063) comment goes further, arguing "public observation must not interfere" is institutional language used to justify excluding legitimate observers, and recommends defining "meaningful observation" with explicit rights to line of sight, documentation, and real-time challenge logging.
+
+---
+
+#### Public Communication
+
+**The Elections Group (0059)** provides research-backed guidance: their 2024 academic study found that process-focused communication increases voter confidence more than results-focused communication. They offer specific practical implementation advice from their workshops. Multiple commenters (0040, 0049, 0059, 0068) specifically request plain-language explanations of audit procedures and results.
+
+**What audits can honestly claim.** Across three comments, a related norm emerges that the draft never explicitly states: *public claims based on an audit should be limited to what the audit's evidence actually supports, and that evidence should be available in publicly verifiable form.* McBurnett (0069) argues that audit reports and public materials should "clearly distinguish between what was directly verified, what was inferred, and what was outside the scope of the audit." Citizens Oversight / Lutz (0062) states the corollary most cleanly: "assurance should not be inferred beyond the contests examined." Bystroff (0039) carries the same principle into discrepancy resolution: *"An explanation is a hypothesis... It is not evidence that the hypothesized cause actually occurred."* The Center for Election Confidence (0068) frames the risk: "a poorly executed or misunderstood audit may risk more harm than no audit at all" — which depends on public claims matching what the audit actually showed. Together, these comments point toward a standard the draft could state directly: not just that audits should be documented and observed, but that claims made on the basis of an audit should be traceable to evidence the public can independently check — not merely to assurances by the audited entity. Colorado's model (public seed, published manifests with hashes, open-source PRNG) is the practical proof that independently verifiable claims are operationally achievable.
 
 ---
 
